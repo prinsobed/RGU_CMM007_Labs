@@ -20,11 +20,37 @@
         </ul>
     </nav>
 </header>
+
 <main>
+    <h2>Help with Cheese</h2>
+    <form action="action_page.php">
+        &nbsp;&nbsp;
+        <label for ="name">Name: </label>
+        <input type="text" name="name" value="" width="100" required>
+        </br></br>
 
+        &nbsp;&nbsp;
+        <label for="email">Email Address: </label>
+        <input type="email" name="email" value="" required>
+        </br></br>
 
+        &nbsp;&nbsp;
+        <label for="gender">Favourite Cheese: </label>
+        <input type="radio" name="Feta" value="Feta">Feta
+        <input type="radio" name="Gouda" value="Gouda">Gouda
+        <input type="radio" name="Other" value="Other">Other
+        </br></br>
 
+        &nbsp;&nbsp;
+        <label for ="problem">What is your Cheese Problem ?: </label>
+        <input type="textarea"  name="problem" value="" rows="5" cols="14">
+        </br></br>
+
+        &nbsp;&nbsp;
+        <input type="submit" value="Submit" onclick="alert('Problem Submitted!')" >
+    </form>
 </main>
+
 </body>
 <footer>
     <hr>
