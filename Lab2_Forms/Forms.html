@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Registration</title>
+</head>
+<body>
+<header>
+    <h1>Customer Registration Form</h1>
+    <h2>Please fill the form below</h2>
+</header>
+<main>
+    <style> input, textarea{width: 150px;}</style>
+
+    <form action="action_page.php">
+
+            <fieldset>
+                <legend><i>User Details</i></legend>
+                <br>
+                <table>
+                    <tr>
+                        <td>
+                            <label for ="fname">First Name: </label>
+                            <input type="text" name="fname" value="" width="100" required>
+                            &nbsp;&nbsp;
+                            <label for="lname">Last Name: </label>
+                            <input type="text" name="lname" value="" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="email">Email Address: </label>
+                            <input type="email" name="email" value="" required><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="username">Username: </label>
+                            <input type="text" name="username" value="" required><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password: </label>
+                            <input type="password" name="password" value="" required><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="dob">Date of Birth: </label>
+                            <input type="date" name="dob" value="" required><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="gender">Gender: </label>
+                            <input type="radio" name="gender" value="Male">Male
+                            <input type="radio" name="gender" value="Female">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pob">Place of Birth: </label>
+                            <select name="pob">
+                                <option value = "">Select Place</option>
+                                <option value = "Perth">Perth</option>
+                                <option value = "Aberdeen">Aberdeen</option>
+                                <option value = "MilKeynes">Milton Keynes</option>
+                                <option value = "Manchester">Manchester</option>
+                            </select>
+                            &nbsp;&nbsp;
+                            <label for="country">Country: </label>
+                            <select name="country">
+                                <option value = "">Select Country</option>
+                                <option value = "England">England</option>
+                                <option value = "Scotland">Scotland</option>
+                            </select>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><i>User Preferences</i></legend>
+                <br>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="colors">Favorite Color:</label>
+                            <input type="color" name="colors">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cmakes">Car Makes: </label><br>
+                            <input type="checkbox" name="cmakes1" value="BMW"> BMW<br>
+                            <input type="checkbox" name="cmakes2" value="Citroen"> Citroen<br>
+                            <input type="checkbox" name="cmakes3" value="Vauxhall"> Vauxhall<br>
+                            <input type="checkbox" name="cmakes4" value="Audi"> Audi
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cyears">Year of Make Range: </label>
+                            <input type="range" name="cyears" min="2000" max="2016" >
+                        </td>
+                    </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+                    <input type="submit" value="Submit" onclick="alert('Registered!')" >
+        </fieldset>
+    </form>
+</main>
+
+<footer>
+
+<p> © 2016 . Obed Kraine LabWorks</p>
+</footer>
+
+</body>
+</html>
