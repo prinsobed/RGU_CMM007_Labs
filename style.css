@@ -1,12 +1,12 @@
 header{
-    background-color: #7e57c2;
+    background-color: #d50000;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 body{
     width: 880px;
     align-content: center;
-    background-color: #d1c4e9;
+    background-color: aliceblue;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: medium;
 
@@ -16,19 +16,8 @@ h1{
     text-align: center;
 }
 
-nav{
-    text-align: center;
-    border: aliceblue;
-
-    padding: 1px;
-    border-style: outset;
 
 
-}
-h2{
-
-
-}
 img{
     width: 45px;
     height: 40px;
