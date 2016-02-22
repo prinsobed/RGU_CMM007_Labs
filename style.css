@@ -1,0 +1,40 @@
+header{
+    background-color: crimson;
+}
+
+body{
+    width: 880px;
+    align-content: center;
+    background-color: aliceblue;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: medium;
+
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    border: aliceblue;
+
+    padding: 1px;
+    border-style: outset;
+
+
+}
+h2{
+
+
+}
+img{
+    width: 45px;
+    height: 40px;
+}
+footer{
+    font-style: inherit;
+    font-size: smaller;
+    text-align: center;
+
+}
