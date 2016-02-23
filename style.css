@@ -1,6 +1,9 @@
 header{
     background-color: #d50000;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    color:white;
+    text-align:center;
+    padding:5px;
 }
 
 body{
@@ -15,7 +18,24 @@ h1{
     color: aliceblue;
     text-align: center;
 }
+h3{
+    color: #d50000;
 
+}
+
+nav {
+    line-height: 30px;
+    background-color: #eeeeee;
+    height: 300px;
+    width: 280px;
+    float: left;
+    padding: 5px;
+}
+section {
+    width:350px;
+    float:left;
+    padding:25px;
+}
 
 
 img{
@@ -23,8 +43,10 @@ img{
     height: 40px;
 }
 footer{
-    font-style: inherit;
-    font-size: smaller;
-    text-align: center;
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
 
 }

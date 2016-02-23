@@ -1,5 +1,30 @@
 header{
-    background-color: crimson;
+    /*Colorings*/
+    background-color: #4a148c;
+
+    /*Content*/
+    height: 200px;
+    width:810px;
+
+    /*Padding*/
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+
+    /*Border*/
+    border-color: aliceblue;
+    border-style: outset;
+    border-width: 1px;
+
+    /*Padding*/
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+
+    /*Text*/
+    text-decoration-color: aliceblue;
+
 }
 
 body{
@@ -10,31 +35,56 @@ body{
     font-size: medium;
 
 }
+
 h1{
     color: aliceblue;
     text-align: center;
 }
 
 nav{
+    list-style-type: none;
     text-align: center;
     border: aliceblue;
 
     padding: 1px;
     border-style: outset;
+}
 
+#mugContainer1{
+    background-color: #f3e5f5;
+    width: 30%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+}
+#mugContainer2{
+     background-color: #e1bee7;
+     width: 30%;
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
+
+ }
+#mugContainer3{
+    background-color: #ce93d8;
+    width: 30%;
+    float: right;
+    margin: 1%;
 
 }
-h2{
 
 
-}
 img{
     width: 45px;
     height: 40px;
 }
+
 footer{
     font-style: inherit;
     font-size: smaller;
     text-align: center;
-
+    background-color: #4a148c;
+    height: 50px;
+    width:850px;
+    padding: 10px;
 }
