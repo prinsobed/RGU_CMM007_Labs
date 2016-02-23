@@ -42,12 +42,15 @@ h1{
 }
 
 nav{
-    list-style-type: none;
-    text-align: center;
     border: aliceblue;
 
     padding: 1px;
     border-style: outset;
+}
+
+ul{
+    list-style-type: none;
+
 }
 
 #mugContainer1{
@@ -59,7 +62,7 @@ nav{
 }
 #mugContainer2{
      background-color: #e1bee7;
-     width: 30%;
+     width: 28%;
     display: inline-block;
     margin: 1%;
     padding: 1%;
@@ -67,9 +70,10 @@ nav{
  }
 #mugContainer3{
     background-color: #ce93d8;
-    width: 30%;
+    width: 28%;
     float: right;
     margin: 1%;
+    padding: 1%;
 
 }
 
