@@ -41,9 +41,6 @@ while(($spec_qty>0)&&($mug_qty>0)&&($sausage_qty>0)){
             break;
     }
     $date++;
-
-    echo "No more goods are available this month";
-
     }
 
 ?>
