@@ -1,0 +1,45 @@
+body {
+    background-color: cornflowerblue;
+}
+header{
+    max-width: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #4a148c;
+
+}
+
+main {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aliceblue;
+    padding: 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-container{
+    margin: 10px;
+
+}
+
+#cont1 {
+    background-color: gold;
+    flex-grow: 3;
+
+
+}
+#cont2 {
+    background-color: silver;
+    flex-grow: 2;
+
+
+}
+
+#cont3 {
+    background-color: saddlebrown;
+    flex-grow: 1;
+
+}
