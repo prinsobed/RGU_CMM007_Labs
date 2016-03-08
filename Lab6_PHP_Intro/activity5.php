@@ -12,26 +12,38 @@
 
 //WHILE LOOPS
 
-$items = 7;
-$todaysGood = rand(0,2);
+//Setting stock levels
+$spec_qty =7;
+$mug_qty =7;
+$sausage_qty =7;
 
-for ($=1; $x<=31; $x++)
+//Set date of the month
+$date =1;
 
-do{
+while(($spec_qty>0)&&($mug_qty>0)&&($sausage_qty>0)){
 
-        if ($x%2==0){
-            echo "<p>On day ".$x." of the Month, Specs are available</p>";
-        }
-        else if ($x%3==0 ){
-            echo "<p>On day ".$x." of the Month, Mugs are available</p>";
-        }
-        else if ($x>=4 && $x % 4==0){
-            echo "<p>On day ".$x." of the Month, Specs and Sausage are available</p>";
-        }
-        else echo "<p>On day ".$x." of the Month, No products available. Sorry!</p>";
+    $todaysGoods = rand(0,2);    //specs at 0, mugs at 1, sausage at 2
+
+    switch($todaysGoods){
+        case 0:
+            $spec_qty --;
+            echo "On day ".$date." of the month, Specs are available<br>";
+            break;
+
+        case 1:
+            $mug_qty --;
+            echo "On day ".$date." of the month, Mugs are available<br>";
+            break;
+
+        case 2:
+            $sausage_qty --;
+            echo "On day ".$date." of the month, Sausage are available<br>";
+            break;
+    }
+    $date++;
+
+    echo "No more goods are available this month";
 
     }
-
-}while($items <= 7);
 
 ?>
