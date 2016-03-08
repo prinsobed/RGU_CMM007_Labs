@@ -28,6 +28,6 @@ for ($x=1; $x<31; $x++){
     else if ($x>=4 && $x % 4==0){
         echo "<p>On the ".$x."th/nd of the Month, Specs and Sausage are available</p>";
     }
-    else echo "<p>On the ".$x."th/nd of the Month, Specs are available</p>";
+    else echo "<p>On the ".$x."th/nd of the Month, No products available. Sorry!</p>";
 
 }
