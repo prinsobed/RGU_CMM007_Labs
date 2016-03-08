@@ -20,10 +20,10 @@ echo "<p>On the 1st of the Month, no products are available</p>";
 
 for ($x=1; $x<31; $x++){
 
-    if ($x<=4 && $x % 2==0){
+    if ($x<=4 && $x%2==0){
         echo "<p>On the ".$x."th/nd of the Month, Specs are available</p>";
     }
-    else if ($x%3==0 ){
+    else if ($x<=3 && $x%3==0 ){
         echo "<p>On the ".$x."rd of the Month, Mugs are available</p>";
     }
     else if ($x>=4 && $x % 4==0){
