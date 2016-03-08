@@ -1,15 +1,15 @@
-/**
-* Created by PhpStorm.
-* User: Kraine
-* Date: 3/7/2016
-* Time: 6:42 AM
-*/
-
 <html>
 <title>Activity 3 - Specs, Mugs, and Sausage III</title>
 </html>
 
 <?php
+/**
+ * Created by PhpStorm.
+ * User: Kraine
+ * Date: 3/7/2016
+ * Time: 6:42 AM
+ */
+
 //SECTION 4
 //ARRAYS
 //Eg.
@@ -31,7 +31,7 @@ $provisionedActivities = array("Mugs","Specs", "Drugs","Sausage", "Rock and Roll
 
 //1. Mugs modified to Hugs
 $provisionedActivities[0] = "Hugs";
-    echo "<p>'Mugs' ahs been changed to ".$provisionedActivities[0]."</p>";
+    echo "<p>'Mugs' has been changed to ".$provisionedActivities[0]."</p>";
 
 //2. Sausage removed
     unset($provisionedActivities[3]);

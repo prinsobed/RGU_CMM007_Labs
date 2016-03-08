@@ -1,16 +1,16 @@
-/**
-* Created by PhpStorm.
-* User: Kraine
-* Date: 3/7/2016
-* Time: 6:42 AM
-*/
-
 <html>
 <title>Activity 1 - Specs, Mugs, and Sausage I</title>
 </html>
 
 <?php
-    /**
+/**
+ * Created by PhpStorm.
+ * User: Kraine
+ * Date: 3/7/2016
+ * Time: 6:42 AM
+ */
+
+/**
         // Output message
         echo "Hello World!, How've you been";
         echo "Hello"." "."World"."!";

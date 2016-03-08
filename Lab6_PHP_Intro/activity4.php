@@ -1,15 +1,18 @@
-/**
-* Created by PhpStorm.
-* User: Kraine
-* Date: 3/7/2016
-* Time: 6:42 AM
-*/
+
 
 <html>
 <title>Activity 4 - Specs, Mugs, and Sausage IV</title>
 </html>
 
 <?php
+
+/**
+ * Created by PhpStorm.
+ * User: Kraine
+ * Date: 3/7/2016
+ * Time: 6:42 AM
+ */
+
 
 /*
 //SECTION 5
