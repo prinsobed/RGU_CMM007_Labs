@@ -13,9 +13,11 @@
 //WHILE LOOPS
 
 $items = 7;
-do{
+$todaysGood = rand(0,2);
 
-    for ($x=1; $x<31; $x++){
+for ($=1; $x<=31; $x++)
+
+do{
 
         if ($x%2==0){
             echo "<p>On day ".$x." of the Month, Specs are available</p>";
