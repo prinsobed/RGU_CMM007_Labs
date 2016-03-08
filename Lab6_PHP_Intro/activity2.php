@@ -1,10 +1,15 @@
-<?php
 /**
- * Created by PhpStorm.
- * User: 1314863
- * Date: 07/03/2016
- * Time: 09:48
- */
+* Created by PhpStorm.
+* User: Kraine
+* Date: 3/7/2016
+* Time: 6:42 AM
+*/
+
+<html>
+<title>Activity 2 - Specs, Mugs, and Sausage II</title>
+</html>
+
+<?php
 
 /*
 //Comparison: The Switch Statement
@@ -32,21 +37,16 @@ switch($numberofHobbits){
 //Activity 2 - Specs, Mugs, and Sausage II
 $wantedgood = "mugs";
 
-switch($wantedgood){
-    case "specs":
-        echo "You have to be 16 to buy 'Specs'";
-        break;
-    case "mugs":
-        echo "You have to be 18 to buy 'Mugs'";
-        break;
-    case "sausage":
-        echo "You have to be 21 to buy 'Sausage'";
-        break;
-}
+    switch($wantedgood){
+        case "specs":
+            echo "<p>You have to be 16 to buy 'Specs'</p>";
+            break;
+        case "mugs":
+            echo "<p>You have to be 18 to buy 'Mugs'</p>";
+            break;
+        case "sausage":
+            echo "<p>You have to be 21 to buy 'Sausage'</p>";
+            break;
+    }
 
-
-
-
-
-
-    ?>
+?>

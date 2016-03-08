@@ -4,10 +4,11 @@
 * Date: 3/7/2016
 * Time: 6:42 AM
 */
-<!DOCTYPE html>
+
 <html>
 <title>Activity 1 - Specs, Mugs, and Sausage I</title>
 </html>
+
 <?php
     /**
         // Output message
@@ -49,23 +50,14 @@
         $sausage = 21;
 
         if($age >= $specs) {
-            print "Your are" . $age ."Years". ". You are eligible to buy Specs";
+            print "<p>Your are" . $age ."Years". ". You are eligible to buy Specs</p>";
         }else if ($age >= $mugs ) {
-            print "Your are" . $age ."Years". ". You are eligible to buy Mugs";
+            print "<p>Your are" . $age ."Years". ". You are eligible to buy Mugs</p>";
         }else if ($age >= $sausage ) {
-            print "Your are" . $age . "Years" . ". You are eligible to Sausage";
+            print "<p>Your are" . $age . "Years" . ". You are eligible to Sausage</p>";
         }
         else{
-            print "You got to grow more.";
+            print "<p>You got to grow more</p>";
         }
+?>
 
-
-
-
-
-
-
-
-        ?>
-
-<?php
