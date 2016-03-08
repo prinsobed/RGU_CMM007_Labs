@@ -16,9 +16,9 @@ for ($i=1; $i<11; $i++){
 */
 
 //Activity 4 - Specs, Mugs, and Sausage IV
-for ($x=1; $x<31; $x++){
+echo "<p>On the 1st of the Month, no products are available</p>";
 
-    echo "<p>On the ".$x."st of the Month, no products are available</p>";
+for ($x=1; $x<31; $x++){
 
     if ($x<=4 && $x % 2==0){
         echo "<p>On the ".$x."th/nd of the Month, Specs are available</p>";
