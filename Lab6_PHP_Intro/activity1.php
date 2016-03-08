@@ -1,66 +1,71 @@
-<head>
-    <meta charset="UTF-8">
-    <title>ACTIVITY 1 - SPECS, MUGS, AND SAUSAGE ROLLS</title>
-</head>
-<?php
 /**
- * Created by PhpStorm.
- * User: 1314863
- * Date: 07/03/2016
- * Time: 10:29
- */
+* Created by PhpStorm.
+* User: Kraine
+* Date: 3/7/2016
+* Time: 6:42 AM
+*/
+<!DOCTYPE html>
+<html>
+<title>Activity 1 - Specs, Mugs, and Sausage I</title>
+</html>
+<?php
+    /**
+        // Output message
+        echo "Hello World!, How've you been";
+        echo "Hello"." "."World"."!";
 
-//SECTION 3
-//ACTIVITY 1 - SPECS, MUGS, AND SAUSAGE ROLLS
-//If Else
-$age = 17;
+        // Simple Arithmetic
+        echo 5*8;
 
-$specs = 16;
-$mugs = 18;
-$sausage = 21;
+        //Store variables
+        $myname = "Denny Crane";
+        $myage = "65";
+        echo "My name is ".$myname."."." "."I am ".$myage."years Old.";
 
-if($age >= $specs) {
-    print "Your are" . $age ."Years". ". You are eligible to buy Specs";
-}else if ($age >= $mugs ) {
-    print "Your are" . $age ."Years". ". You are eligible to buy Mugs";
-}else if ($age >= $sausage ) {
-    print "Your are" . $age . "Years" . ". You are eligible to Sausage";
-}
-else{
-    print "You got to grow more.";
-}
-
-//Switch
-$wantedgood = "mugs";
-
-switch($wantedgood){
-    case "specs":
-        echo "You have to be 16 to buy 'Specs'";
-        break;
-    case "mugs":
-        echo "You have to be 18 to buy 'Mugs'";
-        break;
-    case "sausage":
-        echo "You have to be 21 to buy 'Sausage'";
-        break;
-}
-
-//SECTION 4
-//ARRAYS
-$myArray = array("do", "re", "mi");  //Declaration of an array
-
-echo $myArray[0] // Output element at index 0
-
-    $myArray[1] = "la"; //Modifies content of element at index 1
-
-unset($myArray[2]); //Removes the array in index 2
+        // COMPARISON
 
 
-$provisionedActivities = array("Specs", "Drugs", "Rock and Roll");
-foreach($provisionedActivity as $x) {
-    print "<p>$x</p>";
-}
+        //SECTION 3
+        //CONDITIONAL STATEMENTS
+
+        //Comparison - If Else Statement
+        //Eg.
+        $name = "Hoover";
+        if ($name == "Edgar") {
+            print "Oh, You entered your first name rather.";
+        }
+        else if ($name == "Hoover"){
+            print "There you are Director for CIA";
+        }
+        else{
+            print "Who are you please";
+        }
+    **/
+        //Activity 1 - Specs, Mugs, and Sausage I
+        $age = 17;
+
+        $specs = 16;
+        $mugs = 18;
+        $sausage = 21;
+
+        if($age >= $specs) {
+            print "Your are" . $age ."Years". ". You are eligible to buy Specs";
+        }else if ($age >= $mugs ) {
+            print "Your are" . $age ."Years". ". You are eligible to buy Mugs";
+        }else if ($age >= $sausage ) {
+            print "Your are" . $age . "Years" . ". You are eligible to Sausage";
+        }
+        else{
+            print "You got to grow more.";
+        }
 
 
 
-<?>
+
+
+
+
+
+        ?>
+
+<?php
