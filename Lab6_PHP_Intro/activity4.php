@@ -6,13 +6,14 @@
  * Time: 09:48
  */
 
-
+/*
 //SECTION 5
 //FOR LOOPS
 //Eg.
 for ($i=1; $i<11; $i++){
     echo "<p> Hello World !</p>";
 }
+*/
 
 //Activity 4 - Specs, Mugs, and Sausage IV
 for ($x=1; $x<31; $x++){
