@@ -16,13 +16,13 @@
         for ($x=1; $x<31; $x++){
 
             if ($x % 2 == 0){
-                echo "On the ".$x."th/nd of the Month, Specs are available";
+                echo "<p>On the ".$x."th/nd of the Month, Specs are available</p>";
             }
             else if ($x % 3 == 0){
-                echo "On the ".$x."rd of the Month, Mugs are available";
+                echo "<p>On the ".$x."rd of the Month, Mugs are available</p>";
             }
             else if ($x % 4 == 0){
-                echo "On the ".$x."th/nd of the Month, Specs and Sausage are available";
+                echo "<p>On the ".$x."th/nd of the Month, Specs and Sausage are available</p>";
             };
 
         }
