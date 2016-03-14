@@ -8,7 +8,7 @@ header{
 
 body{
     width: 880px;
-    height: 1220px;
+    height: auto;
     align-content: center;
     background-color: aliceblue;
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -27,7 +27,7 @@ h3{
 nav {
     line-height: 30px;
     background-color: #eeeeee;
-    height: 300px;
+    height: auto;
     width: 280px;
     float: left;
     padding: 5px;
