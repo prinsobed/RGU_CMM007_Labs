@@ -19,5 +19,13 @@ $sql="SELECT uid FROM users WHERE username='$username' and password='$password'"
 
 $result=mysqli_query($db,$sql);
 
+if(mysqli_num_rows($result)==1)
+{
+    header("location: home.php");//Redirecting to another
+}else {
+    echo "Incorrect Username and Password.";
+}
+
+
 
 ?>
