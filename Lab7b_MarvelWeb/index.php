@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Marvel Movies | Home</title>
+    <title>Marvel Movies | All Movies</title>
     <link type="text/css" rel="stylesheet" href="assets/css/styles.css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
@@ -59,18 +59,18 @@
             <th>Notes</th>
         </tr>
         <tr>
-            <td><?php echo $movieID[0] ?></td>
-            <td><?php echo $yearReleased[0] ?></td>
-            <td><?php echo $titles[0] ?></td>
-            <td><?php echo $prosStudio[0] ?></td>
-            <td><?php echo $note[0] ?></td>
+            <td><?php echo $movieID ?></td>
+            <td><?php echo $yearReleased ?></td>
+            <td><?php echo $titles ?></td>
+            <td><?php echo $prosStudio ?></td>
+            <td><?php echo $note ?></td>
         </tr>
         <tr>
-            <td><?php echo $movieID[1] ?></td>
-            <td><?php echo $yearReleased[1] ?></td>
-            <td><?php echo $titles[1] ?></td>
-            <td><?php echo $prosStudio[1] ?></td>
-            <td><?php echo $note[1] ?></td>
+            <td><?php echo $movieID ?></td>
+            <td><?php echo $yearReleased ?></td>
+            <td><?php echo $titles ?></td>
+            <td><?php echo $prosStudio ?></td>
+            <td><?php echo $note ?></td>
         </tr>
     </table>
 
