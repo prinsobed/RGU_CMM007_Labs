@@ -12,14 +12,8 @@ header {
 }
 
 #logo{
-    height: 130px;
-    width:380px;
-    float: left;
-}
-#welcome{
-    height: 130px;
-    width:570px;
-    float: right;
+    height: auto;
+    width:960px;
 }
 
 main{
@@ -29,6 +23,7 @@ main{
 }
 
 #main_banner{
+    height: auto;
     width: 960px;
 }
 
@@ -49,22 +44,9 @@ float: left;
     margin-right: 10px;
 }
 
-.maincontent{
+.main_content{
     float:left;
     width:auto;
-}
-.sidecontent{
-    float:right;
-    width: 33%;
-    padding: 8px;
-    color: #FFFFFF;
-}
-#cont_news{
-    background-color: #DBC9DF;
-}
-
-#cont_events{
-    background-color: #782A7E;
 }
 
 .fixer{

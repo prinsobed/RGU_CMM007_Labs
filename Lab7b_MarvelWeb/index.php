@@ -9,29 +9,30 @@
 <body>
 <main>
     <header>
-        <section id="logo_welcome">
-        <img id="logo" src="assets/images/logo.jpg" alt="marvel_logo">
-            <img id="welcome" src="assets/images/welcome.jpg" alt="marvel_welcome">
-        </section>
 
-        <section id="links">
-        <div>
+        <img id="logo" src="assets/images/logomain.png" alt="marvel_logo">
+
+
+
+
                 <nav>
-                    <a href="allmovies.php">All Movies</a>
-                    <a href="marvel.php">Marvel Studio Movies</a>
-                    <a href="2010movies.php">2010 Movies</a>
-                    <a href="xmemmovies.php">X-Men Movies</a>
-                    <a href="thormovies.php">Thor Movies</a>
-                    <a href="contact">Contact Us</a>
+                    <ul>
+                    <li><a href="allmovies.php">All Movies</a></li>
+                    <li><a href="marvel.php">Marvel Studio Movies</a></li>
+                    <li><a href="2010movies.php">2010 Movies</a></li>
+                    <li><a href="xmemmovies.php">X-Men Movies</a></li>
+                    <li><a href="thormovies.php">Thor Movies</a></li>
+                    <li><a href="contact">Contact Us</a></li>
+                    </ul>
                 </nav>
-        </div>
-        </section>
+
+
         <div id="main_banner">
-            <img id="banner" src="assets/images/titles.jpg" alt="main banner" width="960px">
+            <img id="banner" src="assets/images/timeline.png" alt="main banner">
         </div>
     </header>
 
-    <div class="maincontent">
+    <div class="main_content">
     <?php
     include("dbConnect.php"); // Establish Connection with DB
     $sql = "SELECT * FROM marvelmovies";
