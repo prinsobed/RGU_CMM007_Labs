@@ -71,8 +71,10 @@ footer{
 td{
     width: 192px;
     border: thin;
-    align-content: flex-start;
     alignment: left;
-
-
+}
+tr{
+    height: auto;
+    border: thin;
+    alignment: left;
 }
