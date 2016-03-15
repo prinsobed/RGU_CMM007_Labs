@@ -43,7 +43,7 @@
 
     $movieID = $row['marvelMovieID']; $yearReleased = $row['yearReleased']; $titles =$row['title']; $prosStudio = $row['productionStudio']; $note = $row['notes'];
 
-    echo "<p>" . $movieID . " ". $yearReleased.  " ". $titles. " " . $prosStudio. " " . $note. " "."</p>";
+    //echo "<p>" . $movieID . " ". $yearReleased.  " ". $titles. " " . $prosStudio. " " . $note. " "."</p>";//
 
     }
     ?>
@@ -59,11 +59,18 @@
             <th>Notes</th>
         </tr>
         <tr>
-            <td><?php echo $movieID ?></td>
-            <td><?php echo $yearReleased ?></td>
-            <td><?php echo $titles ?></td>
-            <td><?php echo $prosStudio ?></td>
-            <td><?php echo $note ?></td>
+            <td><?php echo $movieID[0] ?></td>
+            <td><?php echo $yearReleased[0] ?></td>
+            <td><?php echo $titles[0] ?></td>
+            <td><?php echo $prosStudio[0] ?></td>
+            <td><?php echo $note[0] ?></td>
+        </tr>
+        <tr>
+            <td><?php echo $movieID[1] ?></td>
+            <td><?php echo $yearReleased[1] ?></td>
+            <td><?php echo $titles[1] ?></td>
+            <td><?php echo $prosStudio[1] ?></td>
+            <td><?php echo $note[1] ?></td>
         </tr>
     </table>
 
