@@ -9,8 +9,9 @@
 <body>
 <main>
     <header>
-        <img id="logo" src="assets/images/logo.jpg" alt="cdsm_logo">
-            <p>Marvel Cinematic Universe</p>
+        <img id="logo" src="assets/images/logo.jpg" alt="marvel_logo">
+        <img id="welcome" src="assets/images/welcome.jpg" alt="marvel_welcome">
+
                 <nav>
                     <a href="#">All Movies</a>
                     <a href="#">Marvel Studio Movies</a>
@@ -26,7 +27,13 @@
     </header>
 
     <div class="maincontent">
+    <?php
+    include("dbConnect.php"); // Establish Connection with DB
 
+
+    $sql="SELECT * FROM marvelmovies;
+    echo $sql;
+    ?>
     </div>
 
 </main>
