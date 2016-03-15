@@ -11,7 +11,7 @@
     <header>
         <div>
         <img id="logo" src="assets/images/logo.jpg" alt="marvel_logo">
-        <img id="welcome" src="assets/images/welcome.jpg" alt="marvel_welcome">
+            <!--<img id="welcome" src="assets/images/welcome.jpg" alt="marvel_welcome">-->
         </div>
         <div>
                 <nav>

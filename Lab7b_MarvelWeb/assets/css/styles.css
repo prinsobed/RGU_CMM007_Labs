@@ -39,7 +39,9 @@ nav{
 }
 a{
     color: black;
-    text-decoration: line-through;
+    text-decoration: darkred;
+    border: thin;
+
 }
 
 #feature_pic{
