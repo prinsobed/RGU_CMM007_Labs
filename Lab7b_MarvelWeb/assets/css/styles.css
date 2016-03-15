@@ -67,3 +67,12 @@ footer{
     color: #FFFFFF;
     height: 80px;
 }
+
+td{
+    width: 192px;
+    border: thin;
+    align-content: flex-start;
+    alignment: left;
+
+
+}
