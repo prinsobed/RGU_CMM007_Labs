@@ -49,7 +49,8 @@
     ?>
 
     </div>
-    <table>
+
+    <table id="t01">
         <tr>
             <th>MovieID</th>
             <th>Year Released</th>
@@ -63,7 +64,6 @@
             <td><?php echo $titles ?></td>
             <td><?php echo $prosStudio ?></td>
             <td><?php echo $note ?></td>
-
         </tr>
     </table>
 
