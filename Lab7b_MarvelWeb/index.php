@@ -9,10 +9,12 @@
 <body>
 <main>
     <header>
-        <div>
+        <section id="logo_welcome">
         <img id="logo" src="assets/images/logo.jpg" alt="marvel_logo">
-            <!--<img id="welcome" src="assets/images/welcome.jpg" alt="marvel_welcome">-->
-        </div>
+            <img id="welcome" src="assets/images/welcome.jpg" alt="marvel_welcome">
+        </section>
+
+        <section id="links">
         <div>
                 <nav>
                     <a href="allmovies.php">All Movies</a>
@@ -23,6 +25,7 @@
                     <a href="contact">Contact Us</a>
                 </nav>
         </div>
+        </section>
         <div id="main_banner">
             <img id="banner" src="assets/images/titles.jpg" alt="main banner" width="960px">
         </div>
