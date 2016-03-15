@@ -71,10 +71,11 @@ footer{
 td{
     width: 192px;
     border: thin;
-    alignment: left;
+    text-align: left;
+
 }
 tr{
     height: auto;
     border: thin;
-    alignment: left;
+    text-align: left;
 }
