@@ -29,10 +29,17 @@
     <div class="maincontent">
     <?php
     include("dbConnect.php"); // Establish Connection with DB
+    $sql = "SELECT * FROM marvelmovies";
 
+    $myquery=mysqli_query($db,$sql);
+    while($row = $myquery->fetch_array())
+    {
 
-    $sql="SELECT * FROM marvelmovies;
-    echo $sql;
+    $movieTitle = $row[‘title’];
+    echo “<p>” . $movieTitle . “</p>”;
+
+}
+
     ?>
     </div>
 
