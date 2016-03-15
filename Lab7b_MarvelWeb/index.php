@@ -13,12 +13,12 @@
         <img id="welcome" src="assets/images/welcome.jpg" alt="marvel_welcome">
 
                 <nav>
-                    <a href="#">All Movies</a>
-                    <a href="#">Marvel Studio Movies</a>
-                    <a href="#">2010 Movies</a>
-                    <a href="#">X-Men Movies</a>
-                    <a href="#">Thor Movies</a>
-                    <a href="#">Contact Us</a>
+                    <a href="allmovies.php">All Movies</a>
+                    <a href="marvel.php">Marvel Studio Movies</a>
+                    <a href="2010movies.php">2010 Movies</a>
+                    <a href="xmemmovies.php">X-Men Movies</a>
+                    <a href="thormovies.php">Thor Movies</a>
+                    <a href="contact">Contact Us</a>
                 </nav>
 
         <div id="main_banner">
@@ -38,9 +38,7 @@
     $movieID = $row['marvelMovieID']; $yearReleased = $row['yearReleased']; $titles =$row['title']; $prosStudio = $row['productionStudio']; $note = $row['notes'];
 
     echo "<p>" . $movieID . " ". $yearReleased.  " ". $titles. " " . $prosStudio. " " . $note. " "."</p>";
-
-}
-
+    }
     ?>
     </div>
 

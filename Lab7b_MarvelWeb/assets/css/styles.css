@@ -11,8 +11,14 @@ header {
 }
 
 #logo{
-    height: 150px;
-    width:400px;
+    height: 130px;
+    width:380px;
+    float: left;
+}
+#welcome{
+    height: 130px;
+    width:570px;
+    float: right;
 }
 
 main{
