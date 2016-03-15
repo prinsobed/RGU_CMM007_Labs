@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f05e2173-88ae-4241-bdae-646f8360139e" name="Default" comment="Just Push.. Gd damn it..!">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab7b_MarvelWeb/index.php" afterPath="$PROJECT_DIR$/Lab7b_MarvelWeb/index.php" />
+    <list default="true" id="f05e2173-88ae-4241-bdae-646f8360139e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RGU_CMM007_Labs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,16 +24,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab7b_MarvelWeb/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8807018">
-              <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+            <state vertical-scroll-proportion="-17.192308">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <marker date="1458036386749" expanded="true" signature="1076:1090" placeholder="SELECT * FRO..users..." />
-                <marker date="1458036386749" expanded="true" signature="1076:1102" placeholder="SELECT * FRO..marvelmovies..." />
-                <marker date="1458036386749" expanded="true" signature="1180:1255" placeholder="..." />
+                <marker date="1458038768728" expanded="true" signature="1198:1224" placeholder="SELECT * FRO..marvelmovies..." />
+                <marker date="1458038768728" expanded="true" signature="1654:1729" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lab7b_MarvelWeb/assets/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7911464">
+              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,6 +64,7 @@
         <option value="$PROJECT_DIR$/Lab7_Databases/adminer.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Lab7b_MarvelWeb/index.php" />
+        <option value="$PROJECT_DIR$/Lab7b_MarvelWeb/assets/css/styles.css" />
       </list>
     </option>
   </component>
@@ -72,8 +80,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
+    <option name="x" value="578" />
+    <option name="width" value="1342" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -148,6 +156,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RGU_CMM007_Labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RGU_CMM007_Labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab7b_MarvelWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,14 +378,56 @@
       <option name="project" value="LOCAL" />
       <updated>1458035440875</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Commit All">
+      <created>1458036428710</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1458036428710</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Commit All">
+      <created>1458036898384</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1458036898384</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Commit All">
+      <created>1458037923178</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1458037923178</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Commit All">
+      <created>1458038660976</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1458038660976</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Commit All">
+      <created>1458038892283</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1458038892283</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Commit All">
+      <created>1458038936372</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1458038936372</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Commit All">
+      <created>1458039100785</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1458039100785</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="578" y="0" width="1342" height="1040" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27222222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19110765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -394,7 +470,8 @@
     <MESSAGE value="Comit Marvel" />
     <MESSAGE value="Index edit" />
     <MESSAGE value="Just Push.. Gd damn it..!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Just Push.. Gd damn it..!" />
+    <MESSAGE value="Commit All" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit All" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -651,13 +728,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab7b_MarvelWeb/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8807018">
-          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        <state vertical-scroll-proportion="-17.192308">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1458036386749" expanded="true" signature="1076:1090" placeholder="SELECT * FRO..users..." />
-            <marker date="1458036386749" expanded="true" signature="1076:1102" placeholder="SELECT * FRO..marvelmovies..." />
-            <marker date="1458036386749" expanded="true" signature="1180:1255" placeholder="..." />
+            <marker date="1458038768728" expanded="true" signature="1198:1224" placeholder="SELECT * FRO..marvelmovies..." />
+            <marker date="1458038768728" expanded="true" signature="1654:1729" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab7b_MarvelWeb/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7911464">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
