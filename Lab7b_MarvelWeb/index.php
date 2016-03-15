@@ -9,9 +9,11 @@
 <body>
 <main>
     <header>
+        <div>
         <img id="logo" src="assets/images/logo.jpg" alt="marvel_logo">
         <img id="welcome" src="assets/images/welcome.jpg" alt="marvel_welcome">
-
+        </div>
+        <div>
                 <nav>
                     <a href="allmovies.php">All Movies</a>
                     <a href="marvel.php">Marvel Studio Movies</a>
@@ -20,7 +22,7 @@
                     <a href="thormovies.php">Thor Movies</a>
                     <a href="contact">Contact Us</a>
                 </nav>
-
+        </div>
         <div id="main_banner">
             <img id="banner" src="assets/images/titles.jpg" alt="main banner" width="960px">
         </div>
