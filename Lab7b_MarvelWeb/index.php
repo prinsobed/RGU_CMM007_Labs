@@ -30,13 +30,14 @@
     <?php
     include("dbConnect.php"); // Establish Connection with DB
     $sql = "SELECT * FROM marvelmovies";
+    $myquery = mysqli_query($db,$sql);
 
-    $myquery=mysqli_query($db,$sql);
     while($row = $myquery->fetch_array())
     {
 
-    $movieTitle = $row[‘title’];
-    echo “<p>” . $movieTitle . “</p>”;
+    $movieID = $row['marvelMovieID']; $yearReleased = $row['yearReleased']; $titles =$row['title']; $prosStudio = $row['productionStudio']; $note = $row['notes'];
+
+    echo "<p>" . $movieID . " ". $yearReleased.  " ". $titles. " " . $prosStudio. " " . $note. " "."</p>";
 
 }
 
