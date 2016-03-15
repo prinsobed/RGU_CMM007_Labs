@@ -12,20 +12,19 @@ header {
 }
 
 #logo{
-    height: 480px;
     width:960px;
 }
 
+#banner{
+    width: 960px;
+}
 main{
     max-width: 960px;
     margin-right: auto;
     margin-left: auto;
 }
 
-#banner{
-    height: auto;
-    width: 960px;
-}
+
 
 nav{
     display: flex;
