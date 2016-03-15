@@ -28,7 +28,7 @@
 
 
         <div id="main_banner">
-            <img id="banner" src="assets/images/timeline.png" alt="main banner">
+            <img id="banner" src="assets/images/newbanner.png" alt="main banner">
         </div>
     </header>
 
