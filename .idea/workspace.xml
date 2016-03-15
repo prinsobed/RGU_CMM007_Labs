@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f05e2173-88ae-4241-bdae-646f8360139e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab7b_MarvelWeb/index.php" afterPath="$PROJECT_DIR$/Lab7b_MarvelWeb/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RGU_CMM007_Labs.iws" />
@@ -28,11 +27,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab7b_MarvelWeb/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4730195">
-              <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.8769602">
+              <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
               <folding>
-                <marker date="1458039676428" expanded="true" signature="1198:1224" placeholder="SELECT * FRO..marvelmovies..." />
-                <marker date="1458039676428" expanded="true" signature="2118:2193" placeholder="..." />
+                <marker date="1458060365373" expanded="true" signature="1166:1192" placeholder="SELECT * FRO..marvelmovies..." />
+                <marker date="1458060365373" expanded="true" signature="2094:2169" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -42,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/Lab7b_MarvelWeb/assets/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,10 +80,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -126,78 +124,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="RGU_CMM007_Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RGU_CMM007_Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RGU_CMM007_Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab7b_MarvelWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RGU_CMM007_Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RGU_CMM007_Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab7b_MarvelWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RGU_CMM007_Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RGU_CMM007_Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab7b_MarvelWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RGU_CMM007_Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RGU_CMM007_Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab7_Databases" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -434,14 +360,92 @@
       <option name="project" value="LOCAL" />
       <updated>1458039636079</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Commit All">
+      <created>1458039695560</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1458039695560</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Commit All Again">
+      <created>1458039905977</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1458039905977</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Commit All Again Agaaain">
+      <created>1458040349668</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1458040349668</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Edit">
+      <created>1458049947038</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1458049947038</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Re Comit">
+      <created>1458056204579</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1458056204579</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Re Comit">
+      <created>1458056351773</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1458056351773</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Re Comit">
+      <created>1458056630641</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1458056630641</updated>
+    </task>
+    <task id="LOCAL-00028" summary="The Logo">
+      <created>1458056839884</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1458056839884</updated>
+    </task>
+    <task id="LOCAL-00029" summary="CSS">
+      <created>1458056940371</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1458056940371</updated>
+    </task>
+    <task id="LOCAL-00030" summary="CSS">
+      <created>1458057431423</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1458057431423</updated>
+    </task>
+    <task id="LOCAL-00031" summary="CSS Update">
+      <created>1458057660623</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1458057660623</updated>
+    </task>
+    <task id="LOCAL-00032" summary="CSS Update">
+      <created>1458057866046</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1458057866046</updated>
+    </task>
+    <task id="LOCAL-00033" summary="CSS Update">
+      <created>1458058413588</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1458058413588</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.271855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31444445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
@@ -485,18 +489,62 @@
     <MESSAGE value="Index edit" />
     <MESSAGE value="Just Push.. Gd damn it..!" />
     <MESSAGE value="Commit All" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit All" />
+    <MESSAGE value="Commit All Again" />
+    <MESSAGE value="Commit All Again Agaaain" />
+    <MESSAGE value="Edit" />
+    <MESSAGE value="Re Comit" />
+    <MESSAGE value="The Logo" />
+    <MESSAGE value="CSS" />
+    <MESSAGE value="CSS Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS Update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Lab7b_MarvelWeb/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1458060365373" expanded="true" signature="1166:1192" placeholder="SELECT * FRO..marvelmovies..." />
+            <marker date="1458060365373" expanded="true" signature="2094:2169" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab7b_MarvelWeb/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab7b_MarvelWeb/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1458060365373" expanded="true" signature="1166:1192" placeholder="SELECT * FRO..marvelmovies..." />
+            <marker date="1458060365373" expanded="true" signature="2094:2169" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab7b_MarvelWeb/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -504,7 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,7 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -528,9 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <marker date="1457976980682" expanded="true" signature="-1:-1" placeholder="SELECT uid F..users..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -538,7 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -546,7 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -562,9 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-          <folding>
-            <marker date="1457976980682" expanded="true" signature="-1:-1" placeholder="SELECT uid F..users..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,7 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,7 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -596,9 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1457976980682" expanded="true" signature="-1:-1" placeholder="SELECT uid F..users..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,66 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="SELECT SCHEM..SCHEMATA..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="SELECT TABLE..TABLES..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="SELECT TABLE..TABLES..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="ALTER TABLE ..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="ALTER TABLE ..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="DROP TABLE $..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="SELECT ROUTI..ROUTINES..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="SELECT User,..mysql...." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="ALTER TABLE ..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..EVENTS..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458033039718" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5169591">
           <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9602339">
           <caret line="114" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18955731">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,9 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13918129">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <marker date="1457976980682" expanded="true" signature="-1:-1" placeholder="SELECT uid F..users..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,25 +701,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17894737">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab7b_MarvelWeb/assets/images/newbanner.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab7b_MarvelWeb/assets/images/logomain.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab7b_MarvelWeb/assets/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab7b_MarvelWeb/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4730195">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.8769602">
+          <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
           <folding>
-            <marker date="1458039676428" expanded="true" signature="1198:1224" placeholder="SELECT * FRO..marvelmovies..." />
-            <marker date="1458039676428" expanded="true" signature="2118:2193" placeholder="..." />
+            <marker date="1458060365373" expanded="true" signature="1166:1192" placeholder="SELECT * FRO..marvelmovies..." />
+            <marker date="1458060365373" expanded="true" signature="2094:2169" placeholder="..." />
           </folding>
         </state>
       </provider>
