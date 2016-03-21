@@ -36,7 +36,7 @@
     <?php
     include("dbConnect.php"); // Establish Connection with DB
 
-    $sql = "SELECT * FROM marvelmovies WHERE 'yearReleased' = {2010}";
+    $sql = "SELECT * FROM marvelmovies WHERE yearReleased = '2010'";
     $myquery = mysqli_query($db,$sql);
 
     if ($myquery->num_rows > 0) {
