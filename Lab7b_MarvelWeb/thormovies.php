@@ -36,7 +36,7 @@
     <?php
     include("dbConnect.php"); // Establish Connection with DB
 
-    $sql = "SELECT * FROM marvelmovies WHERE 'title' LIKE < %thor";
+    $sql = "SELECT * FROM marvelmovies WHERE 'title' LIKE < %Thor";
     $myquery = mysqli_query($db,$sql);
 
     if ($myquery->num_rows > 0) {
