@@ -36,7 +36,7 @@
     <?php
     include("dbConnect.php"); // Establish Connection with DB
 
-    $sql = "SELECT * FROM marvelmovies WHERE 'productionStudio' LIKE {%Marvel}";
+    $sql = "SELECT * FROM marvelmovies WHERE productionStudio LIKE '%Marvel%'";
     $myquery = mysqli_query($db,$sql);
 
     if ($myquery->num_rows > 0) {
