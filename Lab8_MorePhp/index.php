@@ -16,8 +16,12 @@
     <h1>Using Urls to send information</h1>
 </header>
 <main>
-
-
+    <nav>
+        <ul >
+            <a href = "helloPrinter.php">Lab 7b - Marvel Website</a><br>
+            <a href = "helloSelector.php">Lab 7b - Marvel Website</a><br>
+        </ul>
+    </nav>
 
 
 </main>
