@@ -42,33 +42,16 @@
     if ($myquery->num_rows > 0) {
         echo "<table><tr><th>MovieID</th><th>Year Released</th><th>Title</th><th>Production Studio</th><th>Notes</th></tr>";
     }
-    while($row = $myquery->fetch_array())
-    {
-    $movieID = $row['marvelMovieID']; $yearReleased = $row['yearReleased']; $titles =$row['title']; $prosStudio = $row['productionStudio']; $note = $row['notes'];
+    while($row = $myquery->fetch_array()) {
+        //$movieID = $row['marvelMovieID']; $yearReleased = $row['yearReleased']; $titles =$row['title']; $prosStudio = $row['productionStudio']; $note = $row['notes'];
 
-        echo "<tr><td>".$row["marvelMovieID"]."</td><td>".$row["yearReleased"]."</td><td>".$row["title"]."</td><td>".$row["productionStudio"]."</td><td>".$row["notes"]."</td></tr>";
-        echo "</table>";
+        echo "<tr><td>" . $row["marvelMovieID"] . "</td><td>" . $row["yearReleased"] . "</td><td>" . $row["title"] . "</td><td>" . $row["productionStudio"] . "</td><td>" . $row["notes"] . "</td></tr>";
     }
+    echo "</table>";
+
     ?>
 
     </div>
-
-    <table id="t01">
-        <tr>
-            <th>MovieID</th>
-            <th>Year Released</th>
-            <th>Title</th>
-            <th>Production Studio</th>
-            <th>Notes</th>
-        </tr>
-        <tr>
-            <td><?php echo $movieID ?></td>
-            <td><?php echo $yearReleased ?></td>
-            <td><?php echo $titles ?></td>
-            <td><?php echo $prosStudio ?></td>
-            <td><?php echo $note ?></td>
-        </tr>
-    </table>
 
 </main>
 
