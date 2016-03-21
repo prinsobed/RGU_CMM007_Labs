@@ -18,8 +18,8 @@
 <main>
     <nav>
         <ul >
-            <a href = "helloPrinter.php">Lab 7b - Marvel Website</a><br>
-            <a href = "helloSelector.php">Lab 7b - Marvel Website</a><br>
+            <a href = "helloPrinter.php">Hello Printer</a><br>
+            <a href = "helloSelector.php">Hello Selector</a><br>
         </ul>
     </nav>
 
