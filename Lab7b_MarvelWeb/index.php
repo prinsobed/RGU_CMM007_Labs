@@ -17,7 +17,7 @@
 
                 <nav>
                     <ul id="mainNav">
-                    <li><a href="allmovies.php">All Movies</a></li>
+                    <li><a href="index.php">All Movies</a></li>
                     <li><a href="marvel.php">Marvel Studio Movies</a></li>
                     <li><a href="2010movies.php">2010 Movies</a></li>
                     <li><a href="xmenmovies.php">X-Men Movies</a></li>
