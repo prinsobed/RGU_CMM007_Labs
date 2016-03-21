@@ -132,7 +132,8 @@ h3{
 }
 footer{
     background-color: #363636;
-    text-align: match-parent;
+    padding: 10px;
+    text-align: center;
     color: #FFFFFF;
     height: 60px;
 }
