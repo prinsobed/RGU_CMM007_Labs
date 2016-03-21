@@ -57,7 +57,7 @@
 
 <div class="fixer"></div>
 <footer>
-    <p>Marvel Cinematic Universe � 2016 Obed Kraine LabWorks</p>
+    <p>Marvel Cinematic Universe © 2016 Obed Kraine LabWorks</p>
 </footer>
 
 </body>
