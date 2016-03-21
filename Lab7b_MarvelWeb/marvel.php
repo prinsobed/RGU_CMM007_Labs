@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Marvel Movies | All Movies</title>
+    <title>Marvel Movies | Marvel Studio Movies</title>
     <link type="text/css" rel="stylesheet" href="assets/css/styles.css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
@@ -36,7 +36,7 @@
     <?php
     include("dbConnect.php"); // Establish Connection with DB
 
-    $sql = "SELECT * FROM marvelmovies";
+    $sql = "SELECT * FROM marvelmovies WHERE 'productionStudio' LIKE {%Marvel}";
     $myquery = mysqli_query($db,$sql);
 
     if ($myquery->num_rows > 0) {
