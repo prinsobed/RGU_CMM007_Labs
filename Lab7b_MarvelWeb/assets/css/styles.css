@@ -48,6 +48,7 @@ ul {
             border-right: 1px solid #bbb;
             justify-items: center;
             text-align: justify;
+            width: auto;
         }
 
 
@@ -57,7 +58,7 @@ li a {
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            width: 16%;
+            width: 100%;
             display: inline-flex;
 
    }
