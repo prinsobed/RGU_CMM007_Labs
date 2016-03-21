@@ -38,7 +38,7 @@ ul {
 
 
  .active {
-           background-color: #782A7E;
+           background-color: #FF1744;
         }
 
 
@@ -57,7 +57,7 @@ li a {
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            width: 85px;
+            width: 16%;
             display: inline-flex;
 
    }
