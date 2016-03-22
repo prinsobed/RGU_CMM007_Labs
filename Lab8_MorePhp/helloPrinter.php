@@ -10,38 +10,29 @@
 </header>
 <main>
 
-<!--    <a href="helloSelector.php?userName=mike">HTML - Click Me</a>-->
-    <!---->
-    <!--    --><?php
-    //    $location = "helloSelector.php?username=mike";
-    //    header($location);
-    //    ?>
-    <!---->
-    <!--    --><?php
-    //    $username =$_GET["username"];
-    //    echo $username;
-    //    ?>
-    <!---->
-    <!--    --><?php
-    //    $username = $_GET["username"];
-    //    echo $username;
-    //
-    //    echo "<p>Hello".$username.", how are you today</p>";
-    //
-    //    echo "<p>Hello {$username}, how are you today</p>"
-    //    ?>
 
-<!--    <form action = "helloSelector.php" method = "post">-->
-<!--        <input type = "text" placeholder = "First Name" name = "firstName">-->
-<!--        <input type = "text" placeholder = "Last Name" name = "lastName">-->
-<!--        <input type = "submit" value ='Go.. Go.. Goo..!'-->
-<!--    </form>-->
+    <form action = "helloSelector.php" method = "post">
+        <input type = "text" placeholder = "Username" name = "username">
+        <input type = "password" placeholder = "Password" name = "password">
+        <input type = "submit" value ='Go.. Go.. Goo..!'
+    </form>
 
     <?php
-    $firstName = $_POST["firstName"];
-    $lastName = $_POST["lastName"];
+    //include database
+    include ("dbConnect.php");
 
-    echo "Hello {$firstName} {lastName} ! How are you today dude ?";
+    $firstName = $_POST["username"];
+    $lastName = $_POST["password"];
+
+    $sql = "INSERT INTO users(username, password) VALUES ('$username','$password')";
+
+    if (mysqli_query($db, sql)){
+
+    }else {
+        echo "Error" . $sql . "<br>" . mysqli_error($db);
+    }
+
+    header("location:viewusers.php")
     ?>
 
 
