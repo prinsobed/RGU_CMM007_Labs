@@ -1,20 +1,12 @@
-<!---->
-<!--/**-->
-<!-- * Created by PhpStorm.-->
-<!-- * User: Kraine-->
-<!-- * Date: 3/22/2016-->
-<!-- * Time: 6:19 AM-->
-<!-- */-->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Agents of S.H.I.E.L.D | MetaHuman Registration</title>
+    <title>S.H.I.E.L.D | Agent Success </title>
 </head>
 <body>
 <header>
-    <h1>Registration for Meta-Humans - Details Confirmation</h1>
+    <h1>Welcome to the Bus.. !</h1>
 </header>
 <main>
 <!--    --><?php
@@ -51,7 +43,7 @@
     }
 
     echo "Welcome ! " . $firstName." ".$lastName. " to our ".$gender. " team" ." on Director Coulson's Bus <br>";
-    echo "Your ".$mainPower. " will be very useful";
+    echo "Your ".$mainPower. " will be very useful, you will be trained by Agent May (The Calvary)";
     ?>
 
 </main>

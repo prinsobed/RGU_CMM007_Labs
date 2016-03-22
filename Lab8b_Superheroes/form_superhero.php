@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>The PHP Get Method</title>
+    <title>S.H.I.E.L.D | Meta Human Registration</title>
 </head>
 <body>
 <header>
-    <h1>Registration for Meta-Humans</h1>
+    <h1>Join Director Coulson's Team on the Bus</h1>
 </header>
 <main>
 
