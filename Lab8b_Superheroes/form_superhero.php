@@ -18,7 +18,7 @@
         <input type="radio" name="gender" value="female"> Female<br>
         <input type="radio" name="gender" value="other"> Other
         <input type = "text" placeholder = "mainPower" name = "mainPower">
-        <input type = "submit" value ='Go.. Go.. Goo..!'
+        <input type = "submit" value ='Go.. Go.. Goo..!'>
     </form>
 
 
