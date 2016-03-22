@@ -11,7 +11,7 @@
 <main>
 
 
-    <form action = "results.php" method = "post">
+    <form action = "fs_results.php" method = "post">
         <input type = "text" placeholder = "firstName" name = "firstName">
         <input type = "text" placeholder = "lastName" name = "lastName">
         <input type="radio" name="gender" value="male" checked> Male<br>

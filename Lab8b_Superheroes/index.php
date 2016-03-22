@@ -10,24 +10,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>The PHP Get Method</title>
+    <title>S.H.I.E.L.D | Home</title>
 </head>
 <body>
 <header>
-    <h1>Registration for Meta-Humans</h1>
+    <h1>Welcome to the new S.H.I.E.L.D</h1>
 </header>
 <main>
 
 
-    <form action = "results.php" method = "post">
-        <input type = "text" placeholder = "firstName" name = "firstName">
-        <input type = "text" placeholder = "lastName" name = "lastName">
-        <input type="radio" name="gender" value="male" checked> Male<br>
-        <input type="radio" name="gender" value="female"> Female<br>
-        <input type="radio" name="gender" value="other"> Other
-        <input type = "text" placeholder = "mainPower" name = "mainPower">
-        <input type = "submit" value ='Go.. Go.. Goo..!'
-    </form>
+    <nav>
+        <ul type="square" >
+            <a href = "form_superhero.php">Register as a MetaHuman</a><br>
+            <a href = "fs_results.php">View MetaHuman's on Coulson's Bus</a><br>
+        </ul>
+    </nav>
 
 </main>
 </body>
