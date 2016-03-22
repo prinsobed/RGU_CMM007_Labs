@@ -9,13 +9,28 @@
     <h1>Using Urls to send information</h1>
 </header>
 <main>
-    <a href="http://www.google.com"> </a>
+    <a href="helloSelector.php?userName=mike">HTML - Click Me</a>
 
     <?php
-    $query = $_GET["query"];
-    $type = $_GET["type"];
-    echo "The Query is ".$cat."and the type is ".$type;
+    $location = "helloSelector.php?username=mike";
+    header($location);
     ?>
+
+    <?php
+    $username =$_GET["username"];
+    echo $username;
+    ?>
+
+    <?php
+    $username = $_GET["username"];
+    echo $username;
+
+    echo "<p>Hello".$username.", how are you today</p>";
+
+    echo "<p>Hello {$username}, how are you today</p>"
+    ?>
+
+
 </main>
 </body>
 </html>
