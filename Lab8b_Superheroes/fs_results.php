@@ -10,10 +10,10 @@
 </header>
 <main>
 <!--    --><?php
-//        $firstName = $_POST["firstName"];
-//        $lastName = $_POST["lastName"];
-//        $gender = &$_POST["gender"];
-//        $mainPower = $_POST["mainPower"];
+        $firstName = $_POST["firstName"];
+        $lastName = $_POST["lastName"];
+        $gender = &$_POST["gender"];
+        $mainPower = $_POST["mainPower"];
 //        echo "Welcome ! " . $firstName." ".$lastName. " to our ".$gender. " team" ." on Director Coulson's Bus <br>";
 //
 //    echo "Your ".$mainPower. " will be very useful";
