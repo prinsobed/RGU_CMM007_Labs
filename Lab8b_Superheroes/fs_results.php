@@ -32,8 +32,8 @@
         die("Connection Failed Buddie: ".mysqli_connect_error());
     }
 
-    $sql = "INSERT INTO superheros('firstName', 'lastName', 'gender', 'mainPower')
-                VALUES ($firstName,$lastName,$gender,$mainPower)";
+    $sql = "INSERT INTO superheros(firstName, lastName, gender, mainPower)
+                VALUES ('$firstName','$lastName','$gender','$mainPower')";
 
     if (mysqli_query($conn,$sql)){
         echo "New MetaHuman has joined S.H.I.E.L.D";
