@@ -22,7 +22,7 @@
         $lastName = $_POST["lastName"];
         $gender = &$_POST["gender"];
         $mainPower = $_POST["mainPower"];
-        echo "Welcome ! " . $firstName.$lastName. "to our ".$gender. " team" ." on Director Coulson's Bus <br>";
+        echo "Welcome ! " . $firstName." ".$lastName. "to our "." ".$gender. " team" ." on Director Coulson's Bus <br>";
 
     echo "Your ".$mainPower. " will be very useful";
     ?>
