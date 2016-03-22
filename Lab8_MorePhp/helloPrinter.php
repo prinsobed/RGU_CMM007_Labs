@@ -32,7 +32,7 @@
         echo "Error" . $sql . "<br>" . mysqli_error($db);
     }
 
-    header("location:viewusers.php")
+//    header("location:viewusers.php")
     ?>
 
 
