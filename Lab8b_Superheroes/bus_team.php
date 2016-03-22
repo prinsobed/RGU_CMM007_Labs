@@ -29,25 +29,16 @@
         die("Connection Failed Buddie: ".mysqli_connect_error());
     }
 
-    $sql = "INSERT INTO superheros(firstName, lastName, gender, mainPower)
-                VALUES ('$firstName','$lastName','$gender','$mainPower')";
+    $sql_query = "SELECT * FROM superheros";
 
-    if (mysqli_query($conn,$sql)){
-        echo "New Meta-human has joined S.H.I.E.L.D ";
-    }else{
-        echo "Error: ".mysqli_connect_error($conn);
+    $result = $db->query($sql_query);
+
+    while ($row = $result->fetch_array()){
+
+        echo "Name: ".$firstname." ".$lastName." , "."Gender: ".$gender." , "."Main Power: ".$mainPower;
 
     }
-
-    echo "<br>";
-    echo "Welcome! " . $firstName." ".$lastName. " to our ".$gender. " team" ." on Director Coulson's Bus <br>";
-    echo "Your ".$mainPower. " will be very useful, you will be trained by Agent May (The Calvary)";
-
-    echo "<br><br>";
-
-
     ?>
-    <p><a href = "bus_team.php"> View ALL Meta Humans on Coulson's Bus </a><br></p>"
 
 </main>
 </body>

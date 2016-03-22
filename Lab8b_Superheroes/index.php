@@ -22,7 +22,7 @@
     <nav>
         <ul type="square" >
             <a href = "form_superhero.php">Register as a MetaHuman</a><br>
-            <a href = "fs_results.php">View MetaHuman's on Coulson's Bus</a><br>
+            <a href = "bus_team.php">View ALL Meta Humans on Coulson's Bus</a><br>
         </ul>
     </nav>
 
