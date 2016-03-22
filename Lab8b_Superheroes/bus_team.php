@@ -9,12 +9,12 @@
     <h1>The Bus Team</h1>
 </header>
 <main>
-    <?php
-        $firstName = $_POST["firstName"];
-        $lastName = $_POST["lastName"];
-        $gender = &$_POST["gender"];
-        $mainPower = $_POST["mainPower"];
-    ?>
+<!--    --><?php
+//        $firstName = $_POST["firstName"];
+//        $lastName = $_POST["lastName"];
+//        $gender = &$_POST["gender"];
+//        $mainPower = $_POST["mainPower"];
+//    ?>
 
     <?php
 
@@ -34,7 +34,9 @@
     $result = $db->query($sql_query);
 
     while ($row = $result->fetch_array()){
-        echo "firstName";
+        //echo "firstName";
+
+        echo "<tr><td>" . $row["firstName"] . "</td><td>" . $row["lastName"] . "</td><td>" . $row["gender"] . "</td><td>" . $row["superPower"] . "</td></tr>";
 
 //        echo "Name: "."." ".$lastName." , "."Gender: ".$gender." , "."Main Power: ".$mainPower;
 
