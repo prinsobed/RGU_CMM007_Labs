@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>S.H.I.E.L.D | Agent Success </title>
+    <title>S.H.I.E.L.D | Bus Team </title>
 </head>
 <body>
 <header>
-    <h1>Welcome to the Bus.. !</h1>
+    <h1>The Bus Team</h1>
 </header>
 <main>
     <?php
@@ -34,8 +34,9 @@
     $result = $db->query($sql_query);
 
     while ($row = $result->fetch_array()){
+        echo "firstName";
 
-        echo "Name: ".$firstname." ".$lastName." , "."Gender: ".$gender." , "."Main Power: ".$mainPower;
+//        echo "Name: "."." ".$lastName." , "."Gender: ".$gender." , "."Main Power: ".$mainPower;
 
     }
     ?>
