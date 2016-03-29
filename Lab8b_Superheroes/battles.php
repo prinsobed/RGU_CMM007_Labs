@@ -16,11 +16,13 @@
     ?>
 
     <form action = "fs_results.php" method = "post">
-        <input type = "text" placeholder = "SuperHero Name" name = "Name of Superhero">
-        <input type = "<?php $superheros_query = "SELECT firstname, lastname FROM superherobattles";
+        <select name="Superheros">
+        <option value = "<?php $superheros_query = "SELECT firstname, lastname FROM superherobattles";
                         $myquery = mysqli_query($db,$superheros_query); ?>
-                        <?php echo "firstname"." "."lastname"?>
-                        value ='Go.. Go.. Goo..!'>
+                        <?php echo "firstname"." "."lastname"?>"
+                </select>
+        <br><br>
+        <input type="submit"
     </form>
 
 <!--    --><?php
