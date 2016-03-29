@@ -14,6 +14,8 @@ header {
 #logo{
    width: 229px;
     height: 220px;
+    float: left;
+    margin-right: 10px;
 }
 
 #banner{

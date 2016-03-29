@@ -32,7 +32,7 @@
 </header>
 <main>
     <section>
-        <iframe width="960" height="480" src="//embed/www.youtube.com/watch?v=F2yLWcZNBZg" frameborder="0" allowfullscreen></iframe>
+        <iframe width="960" height="480" src="//www.youtube.com/embed/watch?v=F2yLWcZNBZg" frameborder="0" allowfullscreen></iframe>
 
     </section>
 
