@@ -16,11 +16,11 @@
     $myquery = mysqli_query($db,$sql);
 
     if ($myquery->num_rows > 0) {
-    echo "<table><tr><th>Name</th><th>Gender</th><th>Superpower</th><th>Production Studio</th></tr>";
+    echo "<table><tr><th>Name</th><th>Gender</th><th>Superpower</th></tr>";
     }
 
     while($row = $myquery->fetch_array()) {
-    echo "<tr><td>" . $row["firstName"] . " " . $row["lastName"] . "</td><td>" . $row["gender"] . "</td><td>" . $row["superPower"] . "</td></tr>";
+    echo "<tr><td>" . $row["firstName"] . " " . $row["lastName"] . "</td><td>" . $row["gender"] . "</td><td>" . $row["mainPower"] . "</td></tr>";
     }
 
     echo "</table>";
