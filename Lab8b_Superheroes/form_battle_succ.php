@@ -21,7 +21,7 @@
     if (!$conn){
         die("Connection Failed Buddie: ".mysqli_connect_error());
     }
-    $sID = $_POST["superheroID"];
+    $sID = $_POST["superheros"];
     $vf = $_POST["villian"];
 
 
@@ -36,7 +36,7 @@
     }
     ?>
 
-    <p><a href = "report_battles.php"> View all Battles </a><br></p>"
+    <p><a href = "report_battles.php"> View all Battles </a><br></p>
 
 
 

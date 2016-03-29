@@ -11,7 +11,7 @@
 </header>
 <main>
     <form action = "form_battle_succ.php" method = "post">
-        <select name="Superheros">
+        <select name="superheros">
             <?php
             include("dbConnect.php"); // Establish Connection with DB
             $superheros_query = "SELECT * FROM superheros";
