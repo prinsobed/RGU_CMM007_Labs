@@ -10,4 +10,8 @@ define('DB_USERNAME','bf3d941a653cf6');
 define('DB_PASSWORD', '68c64445');
 define('DB_DATABASE', 'veesoft');
 $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
-?>
+
+if (!$db) {
+    die("Connection Failed Buddie: " . mysqli_connect_error());
+}
+
