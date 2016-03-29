@@ -14,15 +14,19 @@
 </head>
 <body>
 <header>
-    <h1>Welcome to the new S.H.I.E.L.D</h1>
+    <h1>Welcome to the S.H.I.E.L.D New Avengers Programme</h1>
 </header>
 <main>
 
 
     <nav>
         <ul type="square" >
-            <a href = "form_superhero.php">Register as a MetaHuman</a><br>
-            <a href = "bus_team.php">View ALL Meta Humans on Coulson's Bus</a><br>
+            <a href = "form_superhero.php">Register as a Superhuman</a><br>
+            <a href = "form_battle.php">Add a Battle</a><br>
+            <br><br>
+            <a href = "report_superhero.php">View all Superheros</a><br>
+            <a href = "report_battle.php">View all Battles</a><br>
+            <a href = "report_superhero_select.php">Select Battles of Superheros</a><br>
         </ul>
     </nav>
 

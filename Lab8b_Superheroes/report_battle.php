@@ -15,7 +15,7 @@
     include("dbConnect.php"); // Establish Connection with DB
     ?>
 
-    <form action = "fs_results.php" method = "post">
+    <form action = "form_superhero_succ.php" method = "post">
         <select name="Superheros">
         <option value = "<?php $superheros_query = "SELECT firstname, lastname FROM superherobattles";
                         $myquery = mysqli_query($db,$superheros_query); ?>

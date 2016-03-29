@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>S.H.I.E.L.D | Bus Team </title>
+    <title>S.H.I.E.L.D | Superheros </title>
 </head>
 <body>
 <header>
-    <h1>The Bus Team</h1>
+    <h1>All Superheroes</h1>
 </header>
 <main>
     <?php
@@ -25,6 +25,9 @@
 
     echo "</table>";
     ?>
+
+    <p><a href = "form_superhero.php"> Register New Superhero </a><br></p>"
+    <p><a href = "index.php"> Home Page </a><br></p>"
 
 
 </main>

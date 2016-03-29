@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>S.H.I.E.L.D | Superhero Registration</title>
+    <title>S.H.I.E.L.D | Meta Human Registration</title>
 </head>
 <body>
 <header>
-    <h1>Superhero Registration</h1>
+    <h1>Join Director Coulson's Team on the Bus</h1>
 </header>
 <main>
 
@@ -18,8 +18,11 @@
         <input type="radio" name="gender" value="female"> Female<br>
         <input type="radio" name="gender" value="other"> Other
         <input type = "text" placeholder = "mainPower" name = "mainPower">
-        <input type = "submit" value ="Join">
+        <input type = "submit" value ='Go.. Go.. Goo..!'>
     </form>
+
+
+
 
 
 </main>

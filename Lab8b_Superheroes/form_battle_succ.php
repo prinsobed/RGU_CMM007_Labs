@@ -47,7 +47,7 @@
 
 
     ?>
-    <p><a href = "bus_team.php"> View ALL Meta Humans on Coulson's Bus </a><br></p>"
+    <p><a href = "report_superhero.php"> View ALL Meta Humans on Coulson's Bus </a><br></p>"
 
 </main>
 </body>
