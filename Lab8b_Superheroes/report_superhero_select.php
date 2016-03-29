@@ -30,7 +30,8 @@
 
         </select>
         <br><br>
-        <input type="submit"
+        <input type = "text" name = "villian" placeholder="Villian Fought">
+        <input type="submit" text="Add Battle">
     </form>
 
 
