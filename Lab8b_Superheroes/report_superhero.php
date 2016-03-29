@@ -26,8 +26,8 @@
     echo "</table>";
     ?>
 
-    <p><a href = "form_superhero.php"> Register New Superhero </a><br></p>"
-    <p><a href = "index.php"> Home Page </a><br></p>"
+    <p><a href = "form_superhero.php"> Register New Superhero </a><br></p>
+    <p><a href = "index.php"> Home Page </a><br></p>
 
 
 </main>
