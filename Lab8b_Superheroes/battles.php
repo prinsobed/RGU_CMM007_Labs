@@ -24,7 +24,6 @@
         <br><br>
         <input type="submit"
     </form>
-
 <!--    --><?php
 //    $sql = "SELECT * FROM superherobattles";
 //    $myquery = mysqli_query($db,$sql);
