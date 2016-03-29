@@ -25,7 +25,7 @@
 
     $conn = mysqli_connect($servername, $username, $password, $dbname);
 
-    if (!conn){
+    if (!$conn){
         die("Connection Failed Buddie: ".mysqli_connect_error());
     }
 
