@@ -21,7 +21,7 @@
     }
 
     while($row = $myquery->fetch_array()) {
-        echo "<tr><td>" . $row["firstName"] . " " . $row["lastName"] . "</td><td>" . $row["villanFought"] . "</td><td>" . $row["mainPower"] . "</td></tr>";
+        echo "<tr><td>" . $row["firstname"] . " " . $row["lastname"] . "</td><td>" . $row["villanFought"] . "</td><td>" . $row["mainPower"] . "</td></tr>";
     }
 
     echo "</table>";
