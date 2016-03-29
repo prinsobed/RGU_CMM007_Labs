@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>S.H.I.E.L.D | Superhero Battles </title>
+    <link type="text/css" rel="stylesheet" href="assets/css/styles.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <header>
-    <h1>Superhero Battles</h1>
-    <p><a href = "index.php"> Home Page </a><br></p>
+    <img id="logo" src="assets/images/banner.png" alt="Logo">
+
+    <nav>
+        <ul>
+            <li><a href = "form_superhero.php">Register as a Superhuman</a></li>
+            <li><a href = "form_battle.php">Add a Battle</a></li>
+            <li><a href = "report_superhero.php">View all Superheros</a></li>
+            <li><a href = "report_battle.php">View all Battles</a></li>
+            <li><a href = "report_superhero_select.php">Select Battles of Superheros</a></li>
+        </ul>
+    </nav>
 </header>
 <main>
 
@@ -38,6 +49,9 @@
 
     <p><a href = "form_superhero.php"> Register New Superhero </a><br></p>
 </main>
+<footer>
+    <p>S.H.I.E.L.D New Avengers © 2016 Obed Kraine LabWorks</p>
+</footer>
 </body>
 </html>
 
