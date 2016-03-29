@@ -6,7 +6,8 @@
 </head>
 <body>
 <header>
-    <h1>Welcome to the Bus.. !</h1>
+    <h1>Superhero Registration</h1>
+    <p><a href = "index.php"> Home Page </a><br></p>
 </header>
 <main>
 
@@ -43,8 +44,8 @@
     echo "Your Codename is: ".$mainPower ;
     ?>
 
-    <p><a href = "report_superhero.php"> View all Superheros </a><br></p>"
-    <p><a href = "index.php"> Home Page </a><br></p>"
+    <p><a href = "report_superhero.php"> View all Superheros </a><br></p>
+
 
 </main>
 </body>

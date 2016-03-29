@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>S.H.I.E.L.D | Agent Success </title>
+    <title>S.H.I.E.L.D | Battle Record </title>
 </head>
 <body>
 <header>
@@ -36,7 +36,7 @@
     }
     ?>
 
-    <p><a href = "report_superhero.php"> View all Superheros </a><br></p>"
+    <p><a href = "report_battles.php"> View all Battles </a><br></p>"
 
 
 

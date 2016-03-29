@@ -7,6 +7,7 @@
 <body>
 <header>
     <h1>Superhero Registration</h1>
+    <p><a href = "index.php"> Home Page </a><br></p>
 </header>
 <main>
 

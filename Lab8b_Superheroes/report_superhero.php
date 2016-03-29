@@ -7,6 +7,7 @@
 <body>
 <header>
     <h1>All Superheroes</h1>
+    <p><a href = "index.php"> Home Page </a><br></p>
 </header>
 <main>
     <?php
@@ -27,9 +28,6 @@
     ?>
 
     <p><a href = "form_superhero.php"> Register New Superhero </a><br></p>
-    <p><a href = "index.php"> Home Page </a><br></p>
-
-
 </main>
 </body>
 </html>

@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>S.H.I.E.L.D | Meta Human Registration</title>
+    <title>S.H.I.E.L.D | Battle Record</title>
 </head>
 <body>
 <header>
-    <h1>Join Director Coulson's Team on the Bus</h1>
+    <h1>Battle Record</h1>
     <p><a href = "index.php"> Home Page </a><br></p>
 </header>
 <main>
@@ -34,7 +34,7 @@
     </form>
 
 
-    <p><a href = "form_superhero.php"> Register New Superhero </a><br></p>
+    <p><a href = "report_battle.php"> View all Battles </a><br></p>
 
 
 

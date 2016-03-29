@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>S.H.I.E.L.D | Superheros and their Battles </title>
+    <title>S.H.I.E.L.D | Superhero Battles </title>
 </head>
 <body>
 <header>
-    <h1>All Superheroes</h1>
+    <h1>Superhero Battles</h1>
+    <p><a href = "index.php"> Home Page </a><br></p>
 </header>
 <main>
 
@@ -36,9 +37,6 @@
 
 
     <p><a href = "form_superhero.php"> Register New Superhero </a><br></p>
-    <p><a href = "index.php"> Home Page </a><br></p>
-
-
 </main>
 </body>
 </html>
