@@ -23,6 +23,8 @@
                     $fname = $row['firstName'];
                     $lname = $row['lastName'];
                     $gender = $row['gender'];
+
+                echo $fname." ".$lname;
                 }?>
             <option value = "<?php echo $fname." ".$lname?>">
 
@@ -33,7 +35,7 @@
 
 
     <p><a href = "form_superhero.php"> Register New Superhero </a><br></p>
-    <p><a href = "index.php"> Home Page </a><br></p>1superman
+    <p><a href = "index.php"> Home Page </a><br></p>
 
 
 </main>
