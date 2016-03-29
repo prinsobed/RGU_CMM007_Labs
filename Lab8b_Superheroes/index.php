@@ -16,10 +16,8 @@
 </head>
 <body>
 <header>
-<section>
-    <img id="logo" src="assets/images/sh.png" alt="Logo">
-    <h1>Welcome to the S.H.I.E.L.D New Avengers Programme</h1>
-</section>
+    <img id="logo" src="assets/images/banner.png" alt="Logo">
+
     <nav>
         <ul>
             <li><a href = "form_superhero.php">Register as a Superhuman</a></li>
