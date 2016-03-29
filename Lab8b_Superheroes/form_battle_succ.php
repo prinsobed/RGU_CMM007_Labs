@@ -6,8 +6,8 @@
 </head>
 <body>
 <header>
-    <h1>Welcome to the Bus.. !</h1>
-    <p><a href = "index.php"> Home Page </a><br></p>"
+    <h1>Battle Record</h1>
+    <p><a href = "index.php"> Home Page </a><br></p>
 </header>
 <main>
     <?php
