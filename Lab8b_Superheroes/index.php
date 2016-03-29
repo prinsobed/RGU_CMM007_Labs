@@ -32,12 +32,12 @@
     <section>
         <iframe width="960" height="480" src="//www.youtube.com/embed/watch?v=F2yLWcZNBZg" frameborder="0" allowfullscreen></iframe>
 
+        <p>Infinity War is Coming..! <a href = "form_superhero.php"><bold>Register !</bold></a> as a Superhero Now!</p>
     </section>
-
-
-
-
 </main>
+<footer>
+    <p>S.H.I.E.L.D New Avengers © 2016 Obed Kraine LabWorks</p>
+</footer>
 </body>
 </html>
 
