@@ -31,7 +31,11 @@
     </nav>
 </header>
 <main>
-    <img id="banner" src="assets/images/joinavg.png" alt="main banner">
+    <section>
+        <iframe width="420" height="315" src="//www.youtube.com/embed/watch?v=bsaT0sNUeuA" frameborder="0" allowfullscreen></iframe>
+
+    </section>
+
 
 
 

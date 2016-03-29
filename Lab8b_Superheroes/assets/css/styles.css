@@ -1,5 +1,5 @@
 body {
-    background-color: #eeeeee;
+    background-color: white;
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -12,7 +12,8 @@ header {
 }
 
 #logo{
-    width:960px;
+   width: 229px;
+    height: 220px;
 }
 
 #banner{
