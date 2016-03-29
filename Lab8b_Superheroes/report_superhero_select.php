@@ -9,24 +9,24 @@
     <h1>All Superheroes</h1>
 </header>
 <main>
-    <?php
-    include("dbConnect.php"); // Establish Connection with DB
-    ?>
+
 
     <form action = "form_superhero_succ.php" method = "post">
         <select name="Superheros">
-
-                <?php $superheros_query = "SELECT firstname, lastname FROM superherobattles";
-                      $results = $db->query($superheros_query);
-                while($row = $results->fetch_array())
+            <?php
+            include("dbConnect.php"); // Establish Connection with DB
+            $superheros_query = "SELECT * FROM superheros";
+            $results = $db->query($superheros_query);
+            while($row = $results->fetch_array())
                 {
+                    $sID = $row['superheroID'];
                     $fname = $row['firstName'];
                     $lname = $row['lastName'];
                     $gender = $row['gender'];
+                    $mpower = $row['mainPower'];
 
-                echo $fname." ".$lname;
+                    echo "<option value = '{$sID}'>{$fname} {$lname}</option>";
                 }?>
-            <option value = "<?php echo $fname." ".$lname?>">
 
         </select>
         <br><br>
