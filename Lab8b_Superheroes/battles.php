@@ -17,7 +17,10 @@
 
     <form action = "fs_results.php" method = "post">
         <input type = "text" placeholder = "SuperHero Name" name = "Name of Superhero">
-        <input type = "<?php $superheros_query = "SELECT * FROM superherobattles"; $myquery = mysqli_query($db,$superheros_query); ?>submit" value ='Go.. Go.. Goo..!'>
+        <input type = "<?php $superheros_query = "SELECT firstname, lastname FROM superherobattles";
+                        $myquery = mysqli_query($db,$superheros_query); ?>
+                        <?php echo "firstname"." "."lastname"?>
+                        value ='Go.. Go.. Goo..!'>
     </form>
 
 <!--    --><?php
