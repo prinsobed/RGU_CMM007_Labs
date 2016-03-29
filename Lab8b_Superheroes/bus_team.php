@@ -9,12 +9,12 @@
     <h1>The Bus Team</h1>
 </header>
 <main>
-<!--    --><?php
-//        $firstName = $_POST["firstName"];
-//        $lastName = $_POST["lastName"];
-//        $gender = &$_POST["gender"];
-//        $mainPower = $_POST["mainPower"];
-//    ?>
+    <?php
+        $firstName = $_POST["firstName"];
+        $lastName = $_POST["lastName"];
+        $gender = &$_POST["gender"];
+        $mainPower = $_POST["mainPower"];
+    ?>
 
     <?php
 
@@ -29,19 +29,37 @@
         die("Connection Failed Buddie: ".mysqli_connect_error());
     }
 
-    $sql_query = "SELECT * FROM superheros";
 
-    $result = $db->query($sql_query);
+    //include("dbConnect.php"); // Establish Connection with DB
 
-    while ($row = $result->fetch_array()){
-        //echo "firstName";
+    $sql = "SELECT * FROM superheros";
+    $myquery = mysqli_query($db,$sql);
 
-        echo "<tr><td>" . $row["firstName"] . "</td><td>" . $row["lastName"] . "</td><td>" . $row["gender"] . "</td><td>" . $row["superPower"] . "</td></tr>";
-
-//        echo "Name: "."." ".$lastName." , "."Gender: ".$gender." , "."Main Power: ".$mainPower;
-
+    if ($myquery->num_rows > 0) {
+    echo "<table><tr><th>Name</th><th>Gender</th><th>Superpower</th><th>Production Studio</th></tr>";
     }
+    while($row = $myquery->fetch_array()) {
+    //$movieID = $row['marvelMovieID']; $yearReleased = $row['yearReleased']; $titles =$row['title']; $prosStudio = $row['productionStudio']; $note = $row['notes'];
+
+    echo "<tr><td>" . $row["firstName"] . " " . $row["lastName"] . "</td><td>" . $row["gender"] . "</td><td>" . $row["superPower"] . "</td></tr>";
+    }
+    echo "</table>";
+
     ?>
+
+//    $sql_query = "SELECT * FROM superheros";
+//
+//    $result = $db->query($sql_query);
+//
+//    while ($row = $result->fetch_array()){
+//        //echo "firstName";
+//
+//        echo "<tr><td>" . $row["firstName"] . "</td><td>" . $row["lastName"] . "</td><td>" . $row["gender"] . "</td><td>" . $row["superPower"] . "</td></tr>";
+//
+////        echo "Name: "."." ".$lastName." , "."Gender: ".$gender." , "."Main Power: ".$mainPower;
+//
+//    }
+//    ?>
 
 </main>
 </body>
