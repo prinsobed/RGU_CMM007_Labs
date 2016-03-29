@@ -24,13 +24,17 @@
 
 
     <form action = "form_superhero_succ.php" method = "post">
-        <input type = "text" placeholder = "firstName" name = "firstName"><br>
-        <input type = "text" placeholder = "lastName" name = "lastName"><br>
-        <input type="radio" name="gender" value="male" checked> Male<br>
-        <input type="radio" name="gender" value="female"> Female<br>
-        <input type="radio" name="gender" value="other"> Other<br>
-        <input type = "text" placeholder = "mainPower" name = "mainPower">
-        <input type = "submit" value ="Join">
+        <fieldset>
+            <legend>Registration</legend>
+                <input type = "text" placeholder = "First Name Here" name = "firstName"><br>
+                <input type = "text" placeholder = "Last Name Here" name = "lastName"><br>
+                <label>Gender</label><br>
+                <input type="radio" name="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other<br>
+                <input type = "text" placeholder = "mainPower" name = "mainPower">
+                <input type = "submit" value ="Join">
+        </fieldset>
     </form>
 
 
