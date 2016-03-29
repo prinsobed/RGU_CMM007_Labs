@@ -7,19 +7,35 @@
 <body>
 <header>
     <h1>Join Director Coulson's Team on the Bus</h1>
+    <p><a href = "index.php"> Home Page </a><br></p>
 </header>
 <main>
+    <form action = "form_battle_succ.php" method = "post">
+        <select name="Superheros">
+            <?php
+            include("dbConnect.php"); // Establish Connection with DB
+            $superheros_query = "SELECT * FROM superheros";
+            $results = $db->query($superheros_query);
+            while($row = $results->fetch_array())
+            {
+                $sID = $row['superheroID'];
+                $fname = $row['firstName'];
+                $lname = $row['lastName'];
+                $gender = $row['gender'];
+                $mpower = $row['mainPower'];
 
+                echo "<option value = '{$sID}'>{$fname} {$lname}</option>";
+            }?>
 
-    <form action = "form_superhero_succ.php" method = "post">
-        <input type = "text" placeholder = "firstName" name = "firstName">
-        <input type = "text" placeholder = "lastName" name = "lastName">
-        <input type="radio" name="gender" value="male" checked> Male<br>
-        <input type="radio" name="gender" value="female"> Female<br>
-        <input type="radio" name="gender" value="other"> Other
-        <input type = "text" placeholder = "mainPower" name = "mainPower">
-        <input type = "submit" value ='Go.. Go.. Goo..!'>
+        </select>
+        <br><br>
+        <input type = "text" name = "villian" placeholder="Villian Fought">
+        <input type="submit" text="Add Battle">
     </form>
+
+
+    <p><a href = "form_superhero.php"> Register New Superhero </a><br></p>
+
 
 
 
