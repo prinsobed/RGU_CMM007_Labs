@@ -20,6 +20,7 @@
        <form action="checklogin.php" method="post">
            Username:</br>
            <input type="email" name="username">
+           </br>
            Password:</br>
            <input type="password" name="password">
            </br>
