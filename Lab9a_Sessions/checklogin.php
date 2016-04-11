@@ -12,6 +12,8 @@ $password = $_POST["password"];
 if ($username=="user@gmail.com" && $password=="8865")
 {
     setcookie('access_level_cookie','standarduser');
+    setcookie('username_cookie',$username);
+
 }
 
 header('Location: loggedIn.php');
