@@ -11,8 +11,11 @@ $password = $_POST["password"];
 
 if ($username=="user@gmail.com" && $password=="8865")
 {
-    set_session('access_level_cookie','standarduser');
-    set_session('username_cookie',$username);
+//    set_session('access_level_cookie','standarduser');
+//    set_session('username_cookie',$username);
+
+    $_SESSION['thisUser'] = $username;
+    $_SESSION['accessLevel'] = "Standard";
 
 }
 

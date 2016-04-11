@@ -6,26 +6,26 @@
  * Time: 6:56 AM
  */
 session_start();
-$thisUsername = $_SESSION['username_cookie'];
-$accesslevel = $_SESSION['access_level_cookie'];
+$user = $_SESSION['thisUser'];
+$level = $_SESSION['accessLevel'];
 
-displayUserNameInformation($thisUsername);
-displayAccessLevelInformation($accesslevel);
+displayUserNameInformation($user);
+displayAccessLevelInformation($level);
 
 
-function displayUserNameInformation($thisUsername)
+function displayUserNameInformation($user)
 {
-    if ($thisUsername == "user@gmail.com"){
-        echo "<p style = \"background-color: yellow\"> Welcome ! </p>"."".$thisUsername;
+    if ($user == "user@gmail.com"){
+        echo "<p style = \"background-color: yellow\"> Welcome ! </p>"."".$user;
     }
 }
 
-function displayAccessLevelInformation($accesslevel)
+function displayAccessLevelInformation($level)
 {
-    if ($accesslevel == "standarduser"){
+    if ($level == "standarduser"){
         echo "<p style = \"background-color: lightgreen\"> You are currently logged in as a 'Standard User'</p>";
     }
-    else if ($accesslevel == "root"){
+    else if ($level == "root"){
         echo "<p style = \"background - color: red\"> You are currently logged in as a 'Root User'</p>";
 }
 }
