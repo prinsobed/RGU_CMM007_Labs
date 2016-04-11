@@ -25,7 +25,7 @@ function displayAccessLevelInformation($accesslevel)
 
 function displayUserNameInformation($thisUsername)
 {
-    if ($accesslevel == "standarduser"){
+    if ($thisUsername == "user@gmail.com"){
         echo $thisUsername."<p style = \"background-color: yellow\"> Welcome </p>";
     }
 }
