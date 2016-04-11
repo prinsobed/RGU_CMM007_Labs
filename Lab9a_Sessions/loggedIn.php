@@ -12,6 +12,13 @@ $thisUsername = $_COOKIE['username_cookie'];
 displayAccessLevelInformation($accesslevel);
 displayUserNameInformation($thisUsername);
 
+function displayUserNameInformation($thisUsername)
+{
+    if ($thisUsername == "user@gmail.com"){
+        echo "<p style = \"background-color: yellow\"> Welcome </p>"."".$thisUsername;
+    }
+}
+
 function displayAccessLevelInformation($accesslevel)
 {
     if ($accesslevel == "standarduser"){
@@ -23,10 +30,5 @@ function displayAccessLevelInformation($accesslevel)
 }
 }
 
-function displayUserNameInformation($thisUsername)
-{
-    if ($thisUsername == "user@gmail.com"){
-        echo $thisUsername."<p style = \"background-color: yellow\"> Welcome </p>";
-    }
-}
+
 ?>
