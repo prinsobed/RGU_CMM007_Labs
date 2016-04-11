@@ -30,7 +30,9 @@
 </header>
 <main>
     <section>
-        <iframe width="960" height="480" src="/assets/images/embed/infinitywar.mp4" frameborder="0" allowfullscreen></iframe>
+        <video width="960" height="480" autoplay>
+            <source src="assets/images/infinitywar.mp4" type="video/mp4">
+        </video>
 
         <p><a href="form_superhero.php"><img src="assets/images/register.png" alt="register" width="960"></p>
     </section>
