@@ -13,8 +13,11 @@ body{
     width: 120px;
     float: left;
 }
-h1{
+#headText{
     display: inline-block;
+}
+h1{
+
     font-weight: bold;
 
 }
