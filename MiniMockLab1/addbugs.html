@@ -7,40 +7,53 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<!--Start of Header-->
 <header>
-    <img id="logo" src="assets/images/logo.png" alt="logo" id="logo">
-    <h1>BugTracker</h1>
-    <h2>Keeping Track of all the pesky bugs</h2>
-    
+    <img src="assets/images/logo.png" alt="Site Logo" id="logo">
+    <section id="headText">
+        <h1>BugTracker</h1>
+        <h2>Keeping Track of all the pesky bugs</h2>
+    </section>
 </header>
-<content>
+<!--End of Header-->
+
+<!--Start of Page Main-->
+<main>
     <aside>
         <nav>
-            <ol>
+            <ul>
                 <li><a href="showbugs.html">All Bug Items</a> </li>
                 <li><a href="bugs.html">Android Bugs</a></li>
                 <li><a href="bugs.html">iOS Bugs</a> </li>
                 <li><a href="bugs.html">Windows Bugs</a></li>
                 <li><a href="addbugs.html">Insert Bug</a> </li>
-            </ol>
+            </ul>
         </nav>
     </aside>
-    <div id="Main">
-        <form>
-            Bug Name :
-            <input type="text" name="bugName" id="bgname" accesskey="1"><br>
-            Bug Summary :
-            <input type="text" name="bugSummary" id="bgSum" accesskey="2"><br>
-            Buys Category:
-            <input type="text" name="category" id="cat" accesskey="3"><br>
-            <input type="submit" value="Submit" onclick="alert('Submitted!')" >
-
-        </form>
-
-    </div>
-</content>
+    <section>
+        <div id="Main">
+            <form>
+                Bug Name :
+                <input type="text" name="bugName" id="bgname" accesskey="1"><br>
+                Bug Summary :
+                <input type="text" name="bugSummary" id="bgSum" accesskey="2"><br>
+                Buys Category:
+                <select name="category" id="cat" accesskey="3">
+                    <option value="">Select Option</option>
+                    <option value="Android Bugs">Android Bugs</option>
+                    <option value="iOS Bugs">iOS Bugs</option>
+                    <option value="Windows Bugs">Windows Bugs</option>
+                </select><br>
+                <input type="submit" value="Submit" onclick="alert('Submitted!')" >
+            </form>
+        </div>
+    </section>
+</main>
+<!--End of Main-->
+<!--Start of Footer-->
 <footer>
     <p>Designed by Obed Kraine Boachie, 2016.</p>
 </footer>
+<!--End of Footer-->
 </body>
 </html>
