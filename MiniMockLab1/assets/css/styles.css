@@ -43,6 +43,7 @@ display: inline-block;
     width: 66%;
     padding:1%;
     margin: 1%;
+    height: auto;
 }
 footer{
     background-color: #1a1a1a;
