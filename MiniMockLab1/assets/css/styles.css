@@ -1,8 +1,14 @@
-content{
-    font-family: 'Roboto', sans-serif;
+header{
+
 }
-img{
-    float: left;
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 680px;
+
+}
+.logo{
+    width: 5px;
+    height: 5px;
 }
 h1{
 
@@ -12,5 +18,18 @@ h1{
 
 h2{
 
+}
+
+aside{
+    float: left;
+    width: 30%;
+    padding:1%;
+    margin: 1%;
+}
+.Main{
+display: inline-block;
+    width: 66%;
+    padding:1%;
+    margin: 1%;
 }
 
