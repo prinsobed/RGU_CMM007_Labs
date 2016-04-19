@@ -40,7 +40,8 @@ aside{
     padding:1%;
     margin: 1%;
     background-color: #b3b3b3;
-    align-self: flex-start;
+    alignment: top;
+
 }
 
 nav>ul{
