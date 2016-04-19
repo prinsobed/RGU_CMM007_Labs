@@ -4,20 +4,22 @@ header{
 body{
     font-family: 'Roboto', sans-serif;
     width: 680px;
+    alignment: center;
 
 }
 .logo{
+    float: left;
     width: 5px;
     height: 5px;
 }
 h1{
-
+    display: inline-block;
     font-weight: bold;
 
 }
 
 h2{
-
+    display: inline-block;
 }
 
 aside{
