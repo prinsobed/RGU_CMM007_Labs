@@ -61,6 +61,15 @@ nav>ul{
 }
 /*--------------------------------*/
 
+/*CSS for Forms*/
+input [type=text]{
+    width: 100%;
+    border: 2px solid yellow;
+    border-radius: 4px;
+}
+
+/*---------------------------------*/
+
 /*Footer CSS*/
 footer{
     color: #b3b3b3;
