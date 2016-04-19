@@ -10,7 +10,7 @@ body{
 }
 #logo {
     height: 100px;
-    width: 100px;
+    width: 120px;
     float: left;
 }
 h1{
@@ -20,7 +20,8 @@ h1{
 }
 
 h2{
-    display: inline-block;
+
+
 }
 
 aside{
@@ -29,6 +30,10 @@ aside{
     padding:1%;
     margin: 1%;
     background-color: #b3b3b3;
+}
+ul{
+
+    list-style: none;
 }
 .Main{
 display: inline-block;
