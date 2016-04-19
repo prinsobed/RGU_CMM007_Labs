@@ -1,6 +1,7 @@
 header{
 
 }
+
 body{
     font-family: 'Roboto', sans-serif;
     width: 680px;
@@ -8,22 +9,22 @@ body{
     margin-right: auto;
 
 }
+
 #logo {
     height: 100px;
     width: 120px;
     float: left;
 }
+
 #headText{
     display: inline-block;
 }
+
 h1{
-
     font-weight: bold;
-
 }
 
 h2{
-
 
 }
 
@@ -35,18 +36,17 @@ aside{
     background-color: #b3b3b3;
 }
 ul{
-
     list-style: none;
 }
+
 .Main{
-display: inline-block;
-    width: 66%;
+    display: inline-block;
+    width: 68%;
     padding:1%;
     margin: 1%;
     height: auto;
 }
 footer{
-    background-color: #1a1a1a;
     color: #b3b3b3;
 }
 
