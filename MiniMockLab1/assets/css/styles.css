@@ -9,8 +9,7 @@ body{
 }
 .logo{
     float: left;
-    width: 5px;
-    height: 5px;
+
 }
 h1{
     display: inline-block;
