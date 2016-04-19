@@ -20,7 +20,7 @@ body{
     float: left;
 }
 
-.para2 {
+#para2 {
     background-color: gold;
     text-decoration: darkred;
     padding-left: 1px;
@@ -31,7 +31,7 @@ body{
     width: 30%;
     display: inline-block;
 }
-.para3{
+#para3{
     background-color: #4CAF50;
     text-decoration: #f2f2f2;
     padding-left: 1px;
