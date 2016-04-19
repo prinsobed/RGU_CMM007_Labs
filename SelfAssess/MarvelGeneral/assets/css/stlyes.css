@@ -1,0 +1,44 @@
+header{
+    font-family: "Roboto", sans-serif;
+    font-size: larger;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #b3b3b3;
+}
+
+.para1{
+    background-color: #d50000;
+    text-decoration: #bbbbbb;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-bottom: 1px;
+    margin: 2px;
+    width:30%;
+    float: left;
+}
+
+.para2 {
+    background-color: gold;
+    text-decoration: darkred;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-bottom: 1px;
+    margin: 2px;
+    width: 30%;
+    display: inline-block;
+}
+.para3{
+    background-color: #4CAF50;
+    text-decoration: #f2f2f2;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-bottom: 1px;
+    margin: 2px;
+    width:30%;
+    float: right;
+;
