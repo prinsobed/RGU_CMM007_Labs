@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bug Tracker | Home</title>
+    <title>Bug Tracker | Add Bugs</title>
     <link type="text/css" href="assets/css/styles.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
@@ -26,13 +26,16 @@
         </nav>
     </aside>
     <div id="Main">
-        <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type
-            specimen book.
+        <form>
+            Bug Name :
+            <input type="text" name="bugName" id="bgname" accesskey="1"><br>
+            Bug Summary :
+            <input type="text" name="bugSummary" id="bgSum" accesskey="2"><br>
+            Buys Category:
+            <input type="text" name="category" id="cat" accesskey="3"><br>
+            <input type="submit" value="Submit" onclick="alert('Submitted!')" >
 
-        </p>
+        </form>
 
     </div>
 </content>

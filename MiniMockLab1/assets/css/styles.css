@@ -9,8 +9,8 @@ body{
 
 }
 #logo {
-    height: 150px;
-    width: 400px;
+    height: 60px;
+    width: 60px;
     float: left;
 }
 h1{
@@ -28,11 +28,16 @@ aside{
     width: 30%;
     padding:1%;
     margin: 1%;
+    background-color: #b3b3b3;
 }
 .Main{
 display: inline-block;
     width: 66%;
     padding:1%;
     margin: 1%;
+}
+footer{
+    background-color: #1a1a1a;
+    color: #b3b3b3;
 }
 
