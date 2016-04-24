@@ -39,6 +39,7 @@ h2{
 aside{
     float: left;
     width: 30%;
+    height: auto;
     padding:1%;
     margin: 1%;
     background-color: #b3b3b3;
