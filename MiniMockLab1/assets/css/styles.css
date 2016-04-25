@@ -69,6 +69,14 @@ a{
     margin: 4%;
     padding:2%;
 }
+
+.Mainer {
+    display: inline-block;
+    width: 60px;
+    margin: 4%;
+    padding: 2%;
+    position: absolute;
+}
 /*--------------------------------*/
 
 /*CSS for Forms*/
@@ -103,7 +111,20 @@ label
 {
     margin-left: 4.5em;
 }
-input,.bugcategory,.bugsummary
+#bugname{
+    color: #781351;
+    background: #fee3ad;
+    border: 1px solid #781351
+
+}
+
+#bugcategory{
+    color: #781351;
+    background: #fee3ad;
+    border: 1px solid #781351
+}
+
+#bugsummary
 {
     color: #781351;
     background: #fee3ad;
