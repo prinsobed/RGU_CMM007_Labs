@@ -58,6 +58,7 @@ a{
     text-decoration: none;
     padding: 2px;
     margin: 2px;
+    letter-spacing: 2px;
 }
 
 /*--------------------------------*/
@@ -163,6 +164,21 @@ footer{
     color: #b3b3b3;
 }
 /*---------------------------------*/
+
+/*Table*/
+table{
+    width: 100%;
+
+}
+th{
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+}
 
 /*END OF CSS*/
 

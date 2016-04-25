@@ -22,7 +22,7 @@
     <aside>
         <nav>
             <ul>
-                <li><a href="list.html">All Bug Items</a> </li>
+                <li><a href="showbugs.html">All Bug Items</a> </li>
                 <li><a href="bugs.html">Android Bugs</a></li>
                 <li><a href="bugs.html">iOS Bugs</a> </li>
                 <li><a href="bugs.html">Windows Bugs</a></li>
