@@ -19,6 +19,7 @@ header{
     width: 130px;
     height: 100px;
     float: left;
+    padding-right: 10px;
 }
 
 #headText{
