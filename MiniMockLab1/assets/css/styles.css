@@ -23,6 +23,7 @@ header{
 
 #headText{
     display: inline-block;
+    max-width: 64%;
 }
 
 h1{
