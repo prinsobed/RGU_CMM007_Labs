@@ -98,12 +98,13 @@ label
 {
     margin-left: 4.5em;
 }
-input
+input,.bugcategory,.bugsummary
 {
     color: #781351;
     background: #fee3ad;
     border: 1px solid #781351
 }
+
 
 .submit input
 {
