@@ -19,7 +19,7 @@ header{
     width: 130px;
     height: 100px;
     float: left;
-    padding-right: 34px;
+    padding-right: 38px;
 }
 
 #headText{
@@ -52,6 +52,12 @@ nav>ul{
     list-style: none;
     margin: 4px;
     padding: 2px;
+
+}
+a{
+    text-decoration: none;
+    padding: 4px;
+    margin: 2px;
 }
 
 /*--------------------------------*/
