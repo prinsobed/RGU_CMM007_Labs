@@ -23,7 +23,7 @@ if (!$conn){
 
 $bugName=$_POST['bugname'];
 $bugSummary=$_POST['bugsummary'];
-$bugSummary=$_POST['bugcategory'];
+$bugCategory=$_POST['bugcategory'];
 
 
     $sql = "INSERT INTO bugtracker(bugname, bugsummary, bugcategory)
