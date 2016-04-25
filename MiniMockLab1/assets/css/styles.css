@@ -35,8 +35,17 @@ h1{
 h2{
     font-weight: normal;
     font-size: medium;
-
 }
+h3 {
+    font-weight: bold;
+    font-size: medium;
+}
+h3 {
+    font-weight: normal;
+    font-size: medium;
+    font-style: italic;
+}
+
 /*--------------------------------------*/
 
 /*Navigation CSS*/
@@ -76,7 +85,7 @@ a{
     width: 60px;
     margin: 4%;
     padding: 2%;
-    position: absolute;
+
 }
 /*--------------------------------*/
 
@@ -168,6 +177,7 @@ footer{
 /*Table*/
 table{
     width: 100%;
+    display: inline-table;
 
 }
 th{
