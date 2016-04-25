@@ -40,7 +40,7 @@ h2{
 /*Navigation CSS*/
 aside{
     float: left;
-    width: 130px;
+    width: 40%px;
     height: auto;
     padding: 10%;
     margin: 10%;
@@ -58,9 +58,9 @@ nav>ul{
 /*--------------------------------*/
 
 /*CSS for Main Section*/
-section{
+.Main{
     display: inline-block;
-    width: 530px;
+    width: 60px;
     padding:10%;
     margin: 10%;
     height: auto;
