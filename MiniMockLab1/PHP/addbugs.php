@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Bug Tracker | Add Bugs</title>
-    <link type="text/css" href="assets/css/styles.css" rel="stylesheet">
+    <link type="text/css" href="../assets/css/styles.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <!--Start of Header-->
 <header>
-    <img src="assets/images/logo.png" alt="Site Logo" id="logo">
+    <img src="../assets/images/logo.png" alt="Site Logo" id="logo">
     <section id="headText">
         <h1>BugTracker</h1>
         <h2>Keeping Track of all the pesky bugs</h2>
@@ -22,22 +22,22 @@
     <aside>
         <nav>
             <ul>
-                <li><a href="showbugs.html">All Bug Items</a> </li>
+                <li><a href="../showbugs.html">All Bug Items</a> </li>
                 <li><a href="bugs.html">Android Bugs</a></li>
                 <li><a href="bugs.html">iOS Bugs</a> </li>
                 <li><a href="bugs.html">Windows Bugs</a></li>
-                <li><a href="addbugs.html">Insert Bug</a> </li>
+                <li><a href="../addbugs.html">Insert Bug</a> </li>
             </ul>
         </nav>
     </aside>
     <section>
         <div id="MainForm">
-            <form action="PHP/action.php" method="post">
+            <form action="action.php" method="post">
                 <fieldset>
                 Bug Name :
                 <input type="text" name="bugname" id="bugname" accesskey="1" required><br>
                 Bug Summary :
-                <textarea name="bugsummary" id="bugsummary" accesskey="2"></textarea><br>
+                <textarea name="bugsummary" id="bugsummary" accesskey="2" required></textarea><br>
                 Buys Category:
                 <select name="bugcategory" id="bugcategory" accesskey="3" required>
                     <option value="">Select Option</option>
