@@ -54,7 +54,7 @@ aside{
     width: 24%;
     padding: 4px;
     margin: 2px;
-    min-height: auto;
+    min-height: 100%;
 }
 
 /*nav>ul{*/
