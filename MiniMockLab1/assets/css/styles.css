@@ -93,11 +93,10 @@ li a:hover {
 
 /*CSS for Main Section*/
 .Main{
-    display: inline-block;
+    display: flex;
     width: 60px;
     margin: 4%;
     padding:2%;
-    position: absolute;
 }
 
 .Mainer {
