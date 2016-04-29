@@ -31,24 +31,7 @@
         </nav>
     </aside>
     <section>
-        <div id="Main">
-            <?php
-            include("dbConnect.php"); // Establish Connection with DB
 
-            $sql = "SELECT * FROM bugtracker";
-            $myquery = mysqli_query($db,$sql);
-
-            if ($myquery->num_rows > 0) {
-                echo "<table><tr><th>Bug Name</th><th>Category</th><th>Summary</th></tr>";
-            }
-            while($row = $myquery->fetch_array()) {
-                //$movieID = $row['marvelMovieID']; $yearReleased = $row['yearReleased']; $titles =$row['title']; $prosStudio = $row['productionStudio']; $note = $row['notes'];
-
-                echo "<tr><td>" . $row["bugname"] . "</td><td>" . $row["bugcategory"] . "</td><td>" . $row["bugsummary"] . "</td></tr>";
-            }
-            echo "</table>";
-            ?>
-        </div>
     </section>
 </main>
 <!--End of Page Main-->
