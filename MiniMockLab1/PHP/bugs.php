@@ -51,7 +51,7 @@
             include("dbConnect.php"); // Establish Connection with DB
             $bugCategory=$_POST['bugcategory'];
 
-            $sql = "SELECT * FROM bugtracker WHERE bugname LIKE $bugcategory";
+            $sql = "SELECT * FROM bugtracker WHERE bugname LIKE $bugCategory";
             $myquery = mysqli_query($db,$sql);
 
             if ($myquery->num_rows > 0) {
