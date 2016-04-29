@@ -110,6 +110,8 @@ p{
     display: flex;
     position: inherit;
     text-justify: distribute;
+    margin-bottom: 4px;
+
 }
 /*--------------------------------*/
 
