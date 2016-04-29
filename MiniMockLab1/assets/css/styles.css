@@ -104,7 +104,11 @@ li a:hover {
     width: 60px;
     margin: 4%;
     padding: 2%;
+}
 
+p{
+    display: flex;
+    position: inherit;
 }
 /*--------------------------------*/
 
