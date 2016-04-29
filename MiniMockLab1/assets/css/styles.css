@@ -109,6 +109,7 @@ li a:hover {
 p{
     display: flex;
     position: inherit;
+    text-justify: distribute;
 }
 /*--------------------------------*/
 

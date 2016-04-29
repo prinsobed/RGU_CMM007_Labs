@@ -53,7 +53,7 @@
                 Others qualify as security bugs and might, for example, enable a malicious user to
                 bypass access controls in order to obtain unauthorized privileges.
 
-                For examples and categories of Bugs, Go to <a href="showbugs.php">All Bugs</a> page.<br><br>
+
             </p>
         </div>
     </section>
