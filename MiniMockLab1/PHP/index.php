@@ -39,17 +39,17 @@
                 by people in either a program's source code or its design, or in frameworks
                 and operating systems used by such programs, and a few are caused by compilers
                 producing incorrect code. A program that contains a large number of bugs, and/or
-                bugs that seriously interfere with its functionality, is said to be buggy or defective.<br><br>
-
+                bugs that seriously interfere with its functionality, is said to be buggy or defective.</p>
+            <p>
                 Reports detailing bugs in a program are commonly known as bug reports,
                 defect reports, fault reports, problem reports, trouble reports,
-                change requests and so forth.<br><br>
-
+                change requests and so forth.</p>
+            <p>
                 Bugs trigger errors that may in turn have a wide variety of ripple effects
                 with varying levels of inconvenience to the user of the program. Some bugs
                 have only a subtle effect on the program's functionality, and may thus lie
-                undetected for a long time. More serious bugs may cause the program to crash or freeze.<br><br>
-
+                undetected for a long time. More serious bugs may cause the program to crash or freeze.</p>
+            <p>
                 Others qualify as security bugs and might, for example, enable a malicious user to
                 bypass access controls in order to obtain unauthorized privileges.
 
