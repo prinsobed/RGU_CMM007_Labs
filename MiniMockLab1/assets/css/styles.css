@@ -54,7 +54,7 @@ aside{
     width: 24%;
     padding: 4px;
     margin: 2px;
-    height: 100%;
+    position: fixed;
 }
 
 /*nav>ul{*/
@@ -73,8 +73,9 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
+    text-transform: uppercase;
     background-color: white;
+    height: 100%;
 }
 
 li a {
