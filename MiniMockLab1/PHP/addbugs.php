@@ -9,7 +9,7 @@
 <body>
 <!--Start of Header-->
 <header>
-    <img src="../assets/images/logo.png" alt="Site Logo" id="logo">
+    <a href="index.php"><img src="../assets/images/logo.png" alt="Site Logo" id="logo"></a>
     <section id="headText">
         <h1>BugTracker</h1>
         <h2>Keeping Track of all the pesky bugs</h2>
@@ -22,11 +22,11 @@
     <aside>
         <nav>
             <ul>
-                <li><a href="../showbugs.html">All Bug Items</a> </li>
-                <li><a href="bugs.html">Android Bugs</a></li>
-                <li><a href="bugs.html">iOS Bugs</a> </li>
-                <li><a href="bugs.html">Windows Bugs</a></li>
-                <li><a href="../addbugs.html">Insert Bug</a> </li>
+                <li><a href="showbugs.php">All Bug Items</a> </li>
+                <li><a href="bugs.php">Android Bugs</a></li>
+                <li><a href="bugs.php">iOS Bugs</a> </li>
+                <li><a href="bugs.php">Windows Bugs</a></li>
+                <li><a href="addbugs.php">Insert Bug</a> </li>
             </ul>
         </nav>
     </aside>
@@ -58,4 +58,4 @@
 </footer>
 <!--End of Footer-->
 </body>
-</html>
+</php>
