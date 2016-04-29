@@ -32,7 +32,7 @@
     </aside>
     <section>
         <div id="MainForm">
-            <form action="action.php" method="post">
+            <form action="bugs.php" method="post">
                 <fieldset>
                     Select Bug Category:
                     <select name="bugcategory" id="bugcategory" accesskey="3" required>
@@ -41,7 +41,7 @@
                         <option value="iOS Bugs">iOS Bugs</option>
                         <option value="Windows Bugs">Windows Bugs</option>
                     </select><br>
-                    <input type="submit" value="Submit" onclick="alert('Submitted!')" >
+                    <input type="submit" value="Submit">
                 </fieldset>
             </form>
         <div id="Main">
