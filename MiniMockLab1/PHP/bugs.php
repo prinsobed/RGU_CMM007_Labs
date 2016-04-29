@@ -31,20 +31,36 @@
         </nav>
     </aside>
     <section>
+        <div id="MainForm">
+            <form action="action.php" method="post">
+                <fieldset>
+                    Select Bug Category:
+                    <select name="bugcategory" id="bugcategory" accesskey="3" required>
+                        <option value="">Select Option</option>
+                        <option value="Android Bugs">Android Bugs</option>
+                        <option value="iOS Bugs">iOS Bugs</option>
+                        <option value="Windows Bugs">Windows Bugs</option>
+                    </select><br>
+                    <input type="submit" value="Submit" onclick="alert('Submitted!')" >
+                </fieldset>
+            </form>
         <div id="Main">
+
+
             <?php
             include("dbConnect.php"); // Establish Connection with DB
+            $bugCategory=$_POST['bugcategory'];
 
-            $sql = "SELECT * FROM marvelmovies";
+            $sql = "SELECT * FROM bugtracker WHERE bugname LIKE $bugcategory";
             $myquery = mysqli_query($db,$sql);
 
             if ($myquery->num_rows > 0) {
-                echo "<table><tr><th>MovieID</th><th>Year</th><th>Title</th><th>Production Studio</th><th>Notes</th></tr>";
+                echo "<table><tr><th>Bug Name</th><th>Category</th><th>Summary</th></tr>";
             }
             while($row = $myquery->fetch_array()) {
                 //$movieID = $row['marvelMovieID']; $yearReleased = $row['yearReleased']; $titles =$row['title']; $prosStudio = $row['productionStudio']; $note = $row['notes'];
 
-                echo "<tr><td>" . $row["marvelMovieID"] . "</td><td>" . $row["yearReleased"] . "</td><td>" . $row["title"] . "</td><td>" . $row["productionStudio"] . "</td><td>" . $row["notes"] . "</td></tr>";
+                echo "<tr><td>" . $row["bugname"] . "</td><td>" . $row["bugcategory"] . "</td><td>" . $row["bugsummary"] . "</td></tr>";
             }
             echo "</table>";
             ?>
