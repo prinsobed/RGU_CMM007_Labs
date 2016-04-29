@@ -30,7 +30,7 @@
             </ul>
         </nav>
     </aside>
-    <section>
+
         <div id="Main">
             <?php
             include("dbConnect.php"); // Establish Connection with DB
@@ -49,7 +49,7 @@
             echo "</table>";
             ?>
         </div>
-    </section>
+
 </main>
 <!--End of Page Main-->
 
