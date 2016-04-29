@@ -58,7 +58,6 @@
                 echo "<table><tr><th>Bug Name</th><th>Category</th><th>Summary</th></tr>";
             }
             while($row = $myquery->fetch_array()) {
-                //$movieID = $row['marvelMovieID']; $yearReleased = $row['yearReleased']; $titles =$row['title']; $prosStudio = $row['productionStudio']; $note = $row['notes'];
 
                 echo "<tr><td>" . $row["bugname"] . "</td><td>" . $row["bugcategory"] . "</td><td>" . $row["bugsummary"] . "</td></tr>";
             }
