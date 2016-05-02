@@ -93,7 +93,8 @@ li a:hover {
 /*--------------------------------*/
 
 /*CSS for Main Section*/
-.Main{
+#Main{
+    float: left;
     display: flex;
     width: 60px;
     margin: 4%;
