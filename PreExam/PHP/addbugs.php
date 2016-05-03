@@ -63,7 +63,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
                 <?php
                 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
                     echo "
-                <form action = '<?php $_PHP_SELF ?>' method = 'POST'>
+                <form action = '<?{$_SERVER['PHP_SELF']}?>' method = 'POST'>
                     <ul class='form-style-1'>
                         <li>
                             <label for = 'bugName'>Bug Name: <span class='required'>*</span></label>
@@ -100,7 +100,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 
                 $sql = "INSERT INTO bugtracker(bugname, bugsummary, bugcategory)
                 VALUES ('$bugName','$bugSummary','$bugCategory')";
-
+                mysqli_query($conn, $sql);
                     header('location: showbugs.php');
                 }
                 else{
@@ -121,33 +121,31 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 <!--End of Footer-->
 </body>
 </html>
-
+<!---->
 <?php
-
-
-if (!$conn){
-    die("<div class=\"boundary\">
-                <div role=\"alert\" class=\"message critical\">
-                    <p><b>Opps, error occured</b></p>
-                    <p>Could not connect to DB. Please check your Connection.</p>
-                </div>
-                </div>
-                ");
-}
-
-if (mysqli_query($conn,$sql)){
-    echo "<div class=\"boundary\">
-                <div role=\"alert\" class=\"message success\">
-                    <p><b>Congrats, you arrested a New Bug!</b></p>
-                    <p>Record Inserted into Database.</p>
-                </div>
-                </div>";
-}else{
-    echo "\"<div class=\"boundary\">
-                <div role=\"alert\" class=\"message critical\">
-                    <p><b>Opps, error occured</b></p>
-                    <p>Could not insert into DB. Please check your Insert Code.</p>
-                </div>
-                </div>";
-}
-?>
+//if (!$conn){
+//    die("<div class=\"boundary\">
+//                <div role=\"alert\" class=\"message critical\">
+//                    <p><b>Opps, error occured</b></p>
+//                    <p>Could not connect to DB. Please check your Connection.</p>
+//                </div>
+//                </div>
+//                ");
+//}
+//
+//if (mysqli_query($conn,$sql)){
+//    echo "<div class=\"boundary\">
+//                <div role=\"alert\" class=\"message success\">
+//                    <p><b>Congrats, you arrested a New Bug!</b></p>
+//                    <p>Record Inserted into Database.</p>
+//                </div>
+//                </div>";
+//}else{
+//    echo "\"<div class=\"boundary\">
+//                <div role=\"alert\" class=\"message critical\">
+//                    <p><b>Opps, error occured</b></p>
+//                    <p>Could not insert into DB. Please check your Insert Code.</p>
+//                </div>
+//                </div>";
+//}
+//?>
