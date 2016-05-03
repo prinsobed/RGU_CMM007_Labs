@@ -69,20 +69,6 @@
                     </ul>
                 </form>
             </div>
-            <div class="boundary">
-                <div role="alert" class="message critical">
-                    <p><b>Opps, error occured</b></p>
-                    <p>This is just a error notification message.</p>
-                </div>
-
-                <div role="alert" class="message important">
-                    <p><b>Wait, I must warn you!</b></p>
-                    <p>This is just a warning notification message.</p>
-                </div>
-                <div role="alert" class="message standard">
-                    <p><b>FYI, Something just happened!</b></p>
-                    <p>This is just an info notification message.</p>
-                </div>
         </article>
     </section>
 </main>
@@ -145,7 +131,5 @@ if (mysqli_query($conn,$sql)){
                     <p>Could not insert into DB. Please check your Insert Code.</p>
                 </div>
                 </div>";
-
 }
-
 ?>
