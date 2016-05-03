@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f05e2173-88ae-4241-bdae-646f8360139e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PreExam/PHP/bugs.php" afterPath="$PROJECT_DIR$/PreExam/PHP/bugs.php" />
     </list>
     <ignored path="RGU_CMM007_Labs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,15 +110,15 @@
       <file leaf-file-name="bugs.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PreExam/PHP/bugs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5970425">
+            <state vertical-scroll-proportion="0.5027726">
               <caret line="52" column="21" selection-start-line="51" selection-start-column="62" selection-end-line="52" selection-end-column="21" />
               <folding>
-                <marker date="1462303822757" expanded="true" signature="1807:1850" placeholder="SELECT * FRO... bugtracker" />
-                <marker date="1462303822757" expanded="true" signature="1807:1857" placeholder="SELECT * FRO... bugtracker" />
-                <marker date="1462303822757" expanded="true" signature="2425:2479" placeholder="SELECT * FRO... bugtracker" />
-                <marker date="1462303822757" expanded="true" signature="3047:3091" placeholder="SELECT * FRO... bugtracker" />
-                <marker date="1462303822757" expanded="true" signature="3047:3101" placeholder="SELECT * FRO... bugtracker" />
-                <marker date="1462303822757" expanded="true" signature="3719:3779" placeholder="..." />
+                <marker date="1462303870450" expanded="true" signature="1807:1850" placeholder="SELECT * FRO... bugtracker" />
+                <marker date="1462303870450" expanded="true" signature="1807:1857" placeholder="SELECT * FRO... bugtracker" />
+                <marker date="1462303870450" expanded="true" signature="2425:2479" placeholder="SELECT * FRO... bugtracker" />
+                <marker date="1462303870450" expanded="true" signature="3047:3091" placeholder="SELECT * FRO... bugtracker" />
+                <marker date="1462303870450" expanded="true" signature="3047:3101" placeholder="SELECT * FRO... bugtracker" />
+                <marker date="1462303870450" expanded="true" signature="3719:3779" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -358,12 +357,6 @@
       <created>1457947114912</created>
       <option name="number" value="Default" />
       <updated>1457947114912</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Index Update">
-      <created>1457977346768</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1457977346768</updated>
     </task>
     <task id="LOCAL-00006" summary="Wrup Up for today..!">
       <created>1457979831222</created>
@@ -653,7 +646,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462303570316</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="all">
+      <created>1462303831388</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1462303831388</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1163,15 +1162,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PreExam/PHP/bugs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5970425">
+        <state vertical-scroll-proportion="0.5027726">
           <caret line="52" column="21" selection-start-line="51" selection-start-column="62" selection-end-line="52" selection-end-column="21" />
           <folding>
-            <marker date="1462303822757" expanded="true" signature="1807:1850" placeholder="SELECT * FRO... bugtracker" />
-            <marker date="1462303822757" expanded="true" signature="1807:1857" placeholder="SELECT * FRO... bugtracker" />
-            <marker date="1462303822757" expanded="true" signature="2425:2479" placeholder="SELECT * FRO... bugtracker" />
-            <marker date="1462303822757" expanded="true" signature="3047:3091" placeholder="SELECT * FRO... bugtracker" />
-            <marker date="1462303822757" expanded="true" signature="3047:3101" placeholder="SELECT * FRO... bugtracker" />
-            <marker date="1462303822757" expanded="true" signature="3719:3779" placeholder="..." />
+            <marker date="1462303870450" expanded="true" signature="1807:1850" placeholder="SELECT * FRO... bugtracker" />
+            <marker date="1462303870450" expanded="true" signature="1807:1857" placeholder="SELECT * FRO... bugtracker" />
+            <marker date="1462303870450" expanded="true" signature="2425:2479" placeholder="SELECT * FRO... bugtracker" />
+            <marker date="1462303870450" expanded="true" signature="3047:3091" placeholder="SELECT * FRO... bugtracker" />
+            <marker date="1462303870450" expanded="true" signature="3047:3101" placeholder="SELECT * FRO... bugtracker" />
+            <marker date="1462303870450" expanded="true" signature="3719:3779" placeholder="..." />
           </folding>
         </state>
       </provider>
