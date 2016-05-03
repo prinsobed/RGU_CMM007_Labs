@@ -62,8 +62,8 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
             <div id="bugTable">
                 <?php
                 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-                    echo "
-                <form action = '<?{$_SERVER['PHP_SELF']}?>' method = 'POST'>
+                    ?>
+                <form action = '<?{$_SERVER['PHP_SELF'];}?>' method = 'POST'>
                     <ul class='form-style-1'>
                         <li>
                             <label for = 'bugName'>Bug Name: <span class='required'>*</span></label>
@@ -88,8 +88,8 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
                         <input type='submit' value='Submit'>
                         </li>
                     </ul>
-                </form>";
-                }
+                </form>
+                    <?}
 
                 elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 // execute if requested using HTTP POST Method
