@@ -1,3 +1,20 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: 1314863
+ * Date: 14/03/2016
+ * Time: 10:14
+ */
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    header('Location: addbugs.php');
+}elseif ($_SERVER['REQUEST_METHOD'] === 'GET'){
+    header('Location: addbugs.php');
+}else
+    header('Location: index.php');
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

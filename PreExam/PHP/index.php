@@ -65,3 +65,29 @@
 <!--End of Footer-->
 </body>
 </html>
+
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Kraine
+ * Date: 4/11/2016
+ * Time: 6:56 AM
+ */
+session_start();
+$user = $_SESSION['thisUser'];
+$level = $_SESSION['accessLevel'];
+
+displayUserNameInformation($user);
+displayAccessLevelInformation($level);
+$username = "";
+$level = "";
+
+
+function displayUserNameInformation($user)
+{
+    if ($user == "user@gmail.com"){
+        $user = $username;
+    }
+}
+
+?>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bug Tracker | Home</title>
+    <title>Bug Tracker | Login</title>
     <link rel="stylesheet" href="assets/css/styles.css"  type='text/css'>
     <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive-tablet.css" type='text/css'>
     <link rel="stylesheet" href="assets/css/unsemantic-grid-desktop.css" type='text/css'>
@@ -26,23 +26,11 @@
 
 <!--Start of Page Main-->
 <main class= "grid-container">
-    <section class= "grid-15" id="cont1">
-        <nav>
-            <ul>
-                <li><a href="showbugs.php">All Bug Items</a> </li>
-                <li><a href="bugs.html">Android Bugs</a></li>
-                <li><a href="bugs.html">iOS Bugs</a> </li>
-                <li><a href="bugs.html">Windows Bugs</a></li>
-                <li><a href="addbugs.php">Insert Bug</a> </li>
-            </ul>
-        </nav>
-    </section>
-
-    <section class= "grid-85" id="cont2">
+    <section class= "grid-100" id="cont2">
         <article>
                 <div class="login-page">
                     <div class="form">
-                        <form class="register-form">
+                        <form class="register-form" action = "<?php $_PHP_SELF ?>" method = "POST">
                             <input type="text" placeholder="name"/>
                             <input type="password" placeholder="password"/>
                             <input type="text" placeholder="email address"/>
@@ -69,3 +57,28 @@
 <!--End of Footer-->
 </body>
 </html>
+
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Kraine
+ * Date: 4/11/2016
+ * Time: 6:50 AM
+ */
+
+$username = $_POST["username"];
+$password = $_POST["password"];
+
+if ($username=="user@gmail.com" && $password=="8865")
+{
+//    set_session('access_level_cookie','standarduser');
+//    set_session('username_cookie',$username);
+    session_start();
+    $_SESSION['thisUser'] = $username;
+    $_SESSION['accessLevel'] = "Standard";
+
+}
+
+header('Location: index.php');
+
+?>
