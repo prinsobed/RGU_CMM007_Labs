@@ -1,3 +1,52 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: 1314863
+ * Date: 14/03/2016
+ * Time: 10:14
+ */
+
+//include("dbConnect.php"); // Establish Connection with DB
+
+$servername = "ap-cdbr-azure-east-c.cloudapp.net";
+$username = "bf3d941a653cf6";
+$password = "68c64445";
+$dbname = "veesoft";
+
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+if (!$conn){
+    die("<div class=\"boundary\">
+                <div role=\"alert\" class=\"message critical\">
+                    <p><b>Opps, error occured</b></p>
+                    <p>This is just a error notification message.</p>
+                </div>
+                </div>
+                ");
+}
+
+$bugName=$_POST['bugName'];
+$bugSummary=$_POST['bugSummary'];
+$bugCategory=$_POST['bugCategory'];
+
+
+$sql = "INSERT INTO bugtracker(bugname, bugsummary, bugcategory)
+                VALUES ('$bugName','$bugSummary','$bugCategory')";
+
+if (mysqli_query($conn,$sql)){
+    echo "<div class=\"boundary\">
+                <div role=\"alert\" class=\"message success\">
+                    <p><b>Congrats, you arrested a New Bug!</b></p>
+                    <p>This is just a successful notification message.</p>
+                </div>
+                </div>)";
+}else{
+    echo "Error: ".mysqli_connect_error($conn);
+
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +58,7 @@
     <link rel="stylesheet" href="assets/css/unsemantic-grid-desktop.css" type='text/css'>
     <link rel="stylesheet" href="assets/css/unsemantic-grid-mobile.css" type='text/css'>
     <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive.css" type='text/css'>
+    <link rel="stylesheet" href="assets/css/message.css" type="text/css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
@@ -68,6 +118,20 @@
                     </ul>
                 </form>
             </div>
+            <div class="boundary">
+                <div role="alert" class="message critical">
+                    <p><b>Opps, error occured</b></p>
+                    <p>This is just a error notification message.</p>
+                </div>
+
+                <div role="alert" class="message important">
+                    <p><b>Wait, I must warn you!</b></p>
+                    <p>This is just a warning notification message.</p>
+                </div>
+                <div role="alert" class="message standard">
+                    <p><b>FYI, Something just happened!</b></p>
+                    <p>This is just an info notification message.</p>
+                </div>
         </article>
     </section>
 </main>

@@ -81,3 +81,7 @@ textarea, select{
 .form-style-1 .required{
     color:red;
 }
+
+.form-style-1 .italia{
+    font-style: italic;
+}

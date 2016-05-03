@@ -51,7 +51,7 @@
                     }
                     while($row = $myquery->fetch_array()) {
 
-                        echo "<h3>". $row["bugname"] ."<br></h3><h4>". $row["bugcategory"] ."<br></h4><p>". $row["bugsummary"] ."</p><br><div class=\"block_1\"> </div> <hr />";
+                        echo "<h3>". $row["bugname"] ."<br></h3><h4>". $row["bugcategory"] ."<span class=\"italia\">*</span><br></h4><p>". $row["bugsummary"] ."</p><br><div class=\"block_1\"> </div> <hr />";
                     }
                     ?>
             </div>
