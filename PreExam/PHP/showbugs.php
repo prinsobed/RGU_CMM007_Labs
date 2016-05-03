@@ -43,7 +43,7 @@
                     <?php
                     include("dbConnect.php"); // Establish Connection with DB
 
-                    $sql = "SELECT * FROM bugtracker";
+                    $sql = "SELECT * FROM bugtracker"; //Query DB for data.
                     $myquery = mysqli_query($db,$sql);
 
                     if ($myquery->num_rows > 0) {

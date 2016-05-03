@@ -16,7 +16,7 @@ header{
     margin-right: auto;
     margin-left: auto;
     height: 100px;
-    background-color: red;
+    /*background-color: red;*/
 }
 
 #logo {
@@ -50,7 +50,7 @@ ul {
     list-style-type: none;
     margin: 10px;
     padding: 2px;
-    background-color: white;
+    /*background-color: white;*/
 
 }
 
@@ -79,7 +79,7 @@ main {
     margin-right: auto;
     margin-left: auto;
     height: auto;
-    background-color: gold;
+    /*background-color: gold;*/
 }
 
 /*Line*/
@@ -120,7 +120,7 @@ footer{
     height: 50px;
     padding: 10px;
     text-align: center;
-    background-color: lawngreen;
+    /*background-color: lawngreen;*/
 }
 
 
