@@ -1,52 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: 1314863
- * Date: 14/03/2016
- * Time: 10:14
- */
-
-//include("dbConnect.php"); // Establish Connection with DB
-
-$servername = "ap-cdbr-azure-east-c.cloudapp.net";
-$username = "bf3d941a653cf6";
-$password = "68c64445";
-$dbname = "veesoft";
-
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-
-if (!$conn){
-    die("<div class=\"boundary\">
-                <div role=\"alert\" class=\"message critical\">
-                    <p><b>Opps, error occured</b></p>
-                    <p>This is just a error notification message.</p>
-                </div>
-                </div>
-                ");
-}
-
-$bugName=$_POST['bugName'];
-$bugSummary=$_POST['bugSummary'];
-$bugCategory=$_POST['bugCategory'];
-
-
-$sql = "INSERT INTO bugtracker(bugname, bugsummary, bugcategory)
-                VALUES ('$bugName','$bugSummary','$bugCategory')";
-
-if (mysqli_query($conn,$sql)){
-    echo "<div class=\"boundary\">
-                <div role=\"alert\" class=\"message success\">
-                    <p><b>Congrats, you arrested a New Bug!</b></p>
-                    <p>This is just a successful notification message.</p>
-                </div>
-                </div>)";
-}else{
-    echo "Error: ".mysqli_connect_error($conn);
-
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -91,7 +42,7 @@ if (mysqli_query($conn,$sql)){
     <section class= "grid-85" id="cont2">
         <article>
             <div id="bugTable">
-                <form>
+                <form action = "<?php $_PHP_SELF ?>" method = "POST">
                     <ul class="form-style-1">
                         <li>
                             <label for = "bugName">Bug Name: <span class="required">*</span></label>
@@ -144,3 +95,57 @@ if (mysqli_query($conn,$sql)){
 <!--End of Footer-->
 </body>
 </html>
+
+<?php
+/**
+ * Created by PhpStorm.
+ * User: 1314863
+ * Date: 14/03/2016
+ * Time: 10:14
+ */
+
+//include("dbConnect.php"); // Establish Connection with DB
+
+$servername = "ap-cdbr-azure-east-c.cloudapp.net";
+$username = "bf3d941a653cf6";
+$password = "68c64445";
+$dbname = "veesoft";
+
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+if (!$conn){
+    die("<div class=\"boundary\">
+                <div role=\"alert\" class=\"message critical\">
+                    <p><b>Opps, error occured</b></p>
+                    <p>Could not connect to DB. Please check your Connection.</p>
+                </div>
+                </div>
+                ");
+}
+
+$bugName=$_POST['bugName'];
+$bugSummary=$_POST['bugSummary'];
+$bugCategory=$_POST['bugCategory'];
+
+
+$sql = "INSERT INTO bugtracker(bugname, bugsummary, bugcategory)
+                VALUES ('$bugName','$bugSummary','$bugCategory')";
+
+if (mysqli_query($conn,$sql)){
+    echo "<div class=\"boundary\">
+                <div role=\"alert\" class=\"message success\">
+                    <p><b>Congrats, you arrested a New Bug!</b></p>
+                    <p>Record Inserted into Database.</p>
+                </div>
+                </div>";
+}else{
+    echo "\"<div class=\"boundary\">
+                <div role=\"alert\" class=\"message critical\">
+                    <p><b>Opps, error occured</b></p>
+                    <p>Could not insert into DB. Please check your Insert Code.</p>
+                </div>
+                </div>";
+
+}
+
+?>
