@@ -93,7 +93,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 
                 elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 // execute if requested using HTTP POST Method
-                    if(empty($_POST['bugName'] || empty($bugCategory=$_POST['bugCategory']))){
+                    if(empty($_POST['bugName']) || empty($_POST['bugCategory'])){
                         header("Location: addbugs.php?failed=1");
                     }
                 $bugName=$_POST['bugName'];
