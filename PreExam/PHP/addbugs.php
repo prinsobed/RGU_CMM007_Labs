@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bug Tracker | Add Bug</title>
+    <link rel="stylesheet" href="assets/css/styles.css"  type='text/css'>
+    <link rel="stylesheet" href="assets/css/formstyles.css"  type='text/css'>
+    <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive-tablet.css" type='text/css'>
+    <link rel="stylesheet" href="assets/css/unsemantic-grid-desktop.css" type='text/css'>
+    <link rel="stylesheet" href="assets/css/unsemantic-grid-mobile.css" type='text/css'>
+    <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive.css" type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+</head>
+<body>
+<!--Start of Header-->
+<header>
+    <a href="index.php"><img src="assets/images/logo.png" alt="Site Logo" id="logo"></a>
+    <section id="headText">
+        <h1>BugTracker</h1>
+        <h2>Keeping Track of all the pesky bugs</h2>
+    </section>
+</header>
+<!--End of Header-->
+
+<!--Start of Page Main-->
+<main class= "grid-container">
+    <aside class= "grid-15" id="cont1">
+        <nav>
+            <ul>
+                <li><a href="showbugs.php">All Bug Items</a> </li>
+                <li><a href="bugs.html">Android Bugs</a></li>
+                <li><a href="bugs.html">iOS Bugs</a> </li>
+                <li><a href="bugs.html">Windows Bugs</a></li>
+                <li><a href="addbugs.php">Insert Bug</a> </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <section class= "grid-85" id="cont2">
+        <article>
+            <div id="bugTable">
+                <form>
+                    <ul class="form-style-1">
+                        <li>
+                            <label for = "bugName">Bug Name: <span class="required">*</span></label>
+                            <input type="text" name="bugName" class="field-text" value=" " accesskey="1" placeholder="Name of Bug" required/><br>
+                        </li>
+                        <li>
+                            <label for = "bugCategory">Bug Category: <span class="required">*</span></label>
+                            <select name="bugCategory" class="field-select" id="bugCategory" accesskey="2" required>
+                            <option value="">Select Option</option>
+                            <option value="Android">Android Bugs</option>
+                            <option value="iOS">iOS Bugs</option>
+                            <option value="Windows">Windows Bugs</option>
+                            </select>
+                        </li>
+                        <br>
+                        <li>
+                            <label for = "bugSummary">Bug Summary: <span class="required">*</span></label>
+                            <textarea name="bugSummary" class="field-long" id="bugSummary" accesskey="3" placeholder="Your comments on this Bug" required></textarea>
+                        </li>
+                        <br>
+                        <li>
+                        <input type="submit" value="Submit">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </article>
+    </section>
+</main>
+<!--End of Page Main-->
+
+<!--Start of Footer-->
+<footer>
+    <p>Designed by Obed Kraine Boachie, 2016.</p>
+</footer>
+<!--End of Footer-->
+</body>
+</html>
