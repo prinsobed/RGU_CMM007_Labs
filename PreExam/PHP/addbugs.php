@@ -1,3 +1,21 @@
+<?php
+/**
+* Created by PhpStorm.
+* User: 1314863
+* Date: 14/03/2016
+* Time: 10:14
+*/
+
+//include("dbConnect.php"); // Establish Connection with DB
+
+$servername = "ap-cdbr-azure-east-c.cloudapp.net";
+$username = "bf3d941a653cf6";
+$password = "68c64445";
+$dbname = "veesoft";
+
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,32 +60,54 @@
     <section class= "grid-85" id="cont2">
         <article>
             <div id="bugTable">
-                <form action = "<?php $_PHP_SELF ?>" method = "POST">
-                    <ul class="form-style-1">
+                <?php
+                if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+                    echo "
+                <form action = '<?php $_PHP_SELF ?>' method = 'POST'>
+                    <ul class='form-style-1'>
                         <li>
-                            <label for = "bugName">Bug Name: <span class="required">*</span></label>
-                            <input type="text" name="bugName" class="field-text" value=" " accesskey="1" placeholder="Name of Bug" required/><br>
+                            <label for = 'bugName'>Bug Name: <span class='required'>*</span></label>
+                            <input type='text' name='bugName' class='field-text' value=''  accesskey='1' placeholder='Name of Bug' required/><br>
                         </li>
                         <li>
-                            <label for = "bugCategory">Bug Category: <span class="required">*</span></label>
-                            <select name="bugCategory" class="field-select" id="bugCategory" accesskey="2" required>
-                            <option value="">Select Option</option>
-                            <option value="Android">Android Bugs</option>
-                            <option value="iOS">iOS Bugs</option>
-                            <option value="Windows">Windows Bugs</option>
+                            <label for = 'bugCategory'>Bug Category: <span class='required'>*</span></label>
+                            <select name='bugCategory' class='field-select' id='bugCategory' accesskey='2' required>
+                            <option value= ' '>Select Option</option>
+                            <option value='Android'>Android Bugs</option>
+                            <option value='iOS'>iOS Bugs</option>
+                            <option value='Windows'>Windows Bugs</option>
                             </select>
                         </li>
                         <br>
                         <li>
-                            <label for = "bugSummary">Bug Summary: <span class="required">*</span></label>
-                            <textarea name="bugSummary" class="field-long" id="bugSummary" accesskey="3" placeholder="Your comments on this Bug" required></textarea>
+                            <label for = 'bugSummary'>Bug Summary: <span class='required'>*</span></label>
+                            <textarea name='bugSummary' class='field-long' id='bugSummary' accesskey='3' placeholder='Your comments on this Bug' required></textarea>
                         </li>
                         <br>
                         <li>
-                        <input type="submit" value="Submit">
+                        <input type='submit' value='Submit'>
                         </li>
                     </ul>
-                </form>
+                </form>";
+                }
+
+                elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                // execute if requested using HTTP POST Method
+                $bugName=$_POST['bugName'];
+                $bugSummary=$_POST['bugSummary'];
+                $bugCategory=$_POST['bugCategory'];
+
+
+                $sql = "INSERT INTO bugtracker(bugname, bugsummary, bugcategory)
+                VALUES ('$bugName','$bugSummary','$bugCategory')";
+
+                    header('location: showbugs.php');
+                }
+                else{
+                    header('location: index.php');
+                }
+                    ?>
+                ?>
             </div>
         </article>
     </section>
@@ -83,21 +123,7 @@
 </html>
 
 <?php
-/**
- * Created by PhpStorm.
- * User: 1314863
- * Date: 14/03/2016
- * Time: 10:14
- */
 
-//include("dbConnect.php"); // Establish Connection with DB
-
-$servername = "ap-cdbr-azure-east-c.cloudapp.net";
-$username = "bf3d941a653cf6";
-$password = "68c64445";
-$dbname = "veesoft";
-
-$conn = mysqli_connect($servername, $username, $password, $dbname);
 
 if (!$conn){
     die("<div class=\"boundary\">
@@ -108,14 +134,6 @@ if (!$conn){
                 </div>
                 ");
 }
-
-$bugName=$_POST['bugName'];
-$bugSummary=$_POST['bugSummary'];
-$bugCategory=$_POST['bugCategory'];
-
-
-$sql = "INSERT INTO bugtracker(bugname, bugsummary, bugcategory)
-                VALUES ('$bugName','$bugSummary','$bugCategory')";
 
 if (mysqli_query($conn,$sql)){
     echo "<div class=\"boundary\">
