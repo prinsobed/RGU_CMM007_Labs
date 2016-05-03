@@ -58,7 +58,7 @@
                 }
 
                 elseif( $_GET["category"]== "Android") {
-                    $sql = "SELECT * FROM bugtracker WHERE bugcategory == 'Android'"; //Query DB for data.
+                    $sql = "SELECT * FROM bugtracker WHERE bugcategory = 'Android'"; //Query DB for data.
                     $myquery = mysqli_query($db, $sql);
 
                     if ($myquery->num_rows > 0) {
@@ -71,7 +71,7 @@
                 }
 
                 elseif( $_GET["category"]== "Windows") {
-                    $sql = "SELECT * FROM bugtracker WHERE bugcategory == 'Windows'"; //Query DB for data.
+                    $sql = "SELECT * FROM bugtracker WHERE bugcategory = 'Windows'"; //Query DB for data.
                     $myquery = mysqli_query($db, $sql);
 
                     if ($myquery->num_rows > 0) {
