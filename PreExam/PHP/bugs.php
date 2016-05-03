@@ -45,7 +45,7 @@
 
 
                 if( $_GET["category"]== "iOS"){
-                    $sql = "SELECT * FROM bugtracker WHERE bugcategory == 'iOS'"; //Query DB for data.
+                    $sql = "SELECT * FROM bugtracker WHERE bugcategory = 'iOS'"; //Query DB for data.
                     $myquery = mysqli_query($db, $sql);
 
                     if ($myquery->num_rows > 0) {
