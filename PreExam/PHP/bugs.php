@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bug Tracker | All Bugs</title>
+    <title>Bug Tracker | Home</title>
     <link rel="stylesheet" href="assets/css/styles.css"  type='text/css'>
     <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive-tablet.css" type='text/css'>
     <link rel="stylesheet" href="assets/css/unsemantic-grid-desktop.css" type='text/css'>
@@ -39,12 +39,14 @@
 
     <section class= "grid-85" id="cont2">
         <article>
-            <div id= "allBugs">
-                    <?php
-                    include("dbConnect.php"); // Establish Connection with DB
+            <div id= "categorybugs">
+                <?php
+                include("dbConnect.php"); // Establish Connection with DB
 
-                    $sql = "SELECT * FROM bugtracker"; //Query DB for data.
-                    $myquery = mysqli_query($db,$sql);
+
+                if( $_GET["category"]== "iOS"){
+                    $sql = "SELECT * FROM bugtracker WHERE bugcategory == 'iOS'"; //Query DB for data.
+                    $myquery = mysqli_query($db, $sql);
 
                     if ($myquery->num_rows > 0) {
                         echo "<h2>All Bugs in the World</h2>";
@@ -53,7 +55,35 @@
 
                         echo "<h3>". $row["bugname"] ."<br></h3><p>". $row["bugcategory"] ."</p><p>". $row["bugsummary"] ."</p><div class=\"block_1\"> </div><hr/>";
                     }
-                    ?>
+                }
+
+                elseif( $_GET["category"]== "Android") {
+                    $sql = "SELECT * FROM bugtracker WHERE bugcategory == 'Android'"; //Query DB for data.
+                    $myquery = mysqli_query($db, $sql);
+
+                    if ($myquery->num_rows > 0) {
+                        echo "<h2>All Bugs in the World</h2>";
+                    }
+                    while($row = $myquery->fetch_array()) {
+
+                        echo "<h3>". $row["bugname"] ."<br></h3><p>". $row["bugcategory"] ."</p><p>". $row["bugsummary"] ."</p><div class=\"block_1\"> </div><hr/>";
+                    }
+                }
+
+                elseif( $_GET["category"]== "Windows") {
+                    $sql = "SELECT * FROM bugtracker WHERE bugcategory == 'Windows'"; //Query DB for data.
+                    $myquery = mysqli_query($db, $sql);
+
+                    if ($myquery->num_rows > 0) {
+                        echo "<h2>All Bugs in the World</h2>";
+                    }
+                    while($row = $myquery->fetch_array()) {
+
+                        echo "<h3>". $row["bugname"] ."<br></h3><p>". $row["bugcategory"] ."</p><p>". $row["bugsummary"] ."</p><div class=\"block_1\"> </div><hr/>";
+                    }
+                }
+
+                ?>
             </div>
         </article>
     </section>
@@ -67,3 +97,4 @@
 <!--End of Footer-->
 </body>
 </html>
+

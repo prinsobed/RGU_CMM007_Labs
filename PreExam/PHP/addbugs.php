@@ -49,9 +49,9 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
         <nav>
             <ul>
                 <li><a href="showbugs.php">All Bug Items</a> </li>
-                <li><a href="bugs.html">Android Bugs</a></li>
-                <li><a href="bugs.html">iOS Bugs</a> </li>
-                <li><a href="bugs.html">Windows Bugs</a></li>
+                <li><a href="bugs.php">Android Bugs</a></li>
+                <li><a href="bugs.php">iOS Bugs</a> </li>
+                <li><a href="bugs.php">Windows Bugs</a></li>
                 <li><a href="addbugs.php">Insert Bug</a> </li>
             </ul>
         </nav>
