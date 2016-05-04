@@ -30,7 +30,7 @@
         <article>
                 <div class="login-page">
                     <div class="form">
-                        <form class="register-form" action = "action.php" method = "POST">
+                        <form class="register-form" action = '<?{$_SERVER['PHP_SELF'];}?>' method = "POST">
                             <input type="text" placeholder="name"/>
                             <input type="password" placeholder="password"/>
                             <input type="text" placeholder="email address"/>
@@ -43,6 +43,26 @@
                             <button>login</button>
                             <p class="message">Not registered? <a href="#">Create an account</a></p>
                         </form>
+                        <?php
+
+                                $username = $_POST["username"];
+                                $password = $_POST["password"];
+
+                                if ($username=="user@gmail.com" && $password=="8865")
+                                {
+                                    session_start();
+                                    $_SESSION['thisUser'] = $username;
+                                    $_SESSION['accessLevel'] = "Standard";
+
+                                    }
+
+                                header('Location: index.php');
+                        ?>
+
+
+
+
+                        ?>
                     </div>
                 </div>
         </article>
