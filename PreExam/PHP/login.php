@@ -55,7 +55,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
                             <button>create</button>
                             <p class="message">Already registered? <a href="#">Sign In</a></p>
                         </form>
-                        <form class="login-form">
+                        <form class="login-form" action = '<?{$_SERVER['PHP_SELF'];}?>' method = "POST">
                             <input type="text" placeholder="username" name="username" id="username"/>
                             <input type="password" placeholder="password" name="password" id="password"/>
                             <button>login</button>
@@ -63,8 +63,8 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
                         </form>
                         <?php
 
-                                $myusername = $_POST["username"];
-                                $mypassword = $_POST["password"];
+                                $myusername = $_POST['username'];
+                                $mypassword = $_POST['password'];
 
                                 $myusername = stripslashes($myusername);
                                 $mypassword = stripslashes($password);
