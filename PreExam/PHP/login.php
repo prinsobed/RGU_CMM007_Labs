@@ -58,7 +58,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
                         <form class="login-form" action = '<?{$_SERVER['PHP_SELF'];}?>' method = "POST">
                             <input type="text" placeholder="username" name="username" id="username"/>
                             <input type="password" placeholder="password" name="password" id="password"/>
-                            <input type="submit" value="Submit">login</>
+                            <input type="submit" value="Log In">
                             <p class="message">Not registered? <a href="<?{$_SERVER['PHP_SELF'];}?>">Create an account</a></p>
 <!--                        </form>-->
                         <?php
