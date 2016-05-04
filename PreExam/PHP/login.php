@@ -1,3 +1,21 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: 1314863
+ * Date: 14/03/2016
+ * Time: 10:14
+ */
+
+//include("dbConnect.php"); // Establish Connection with DB
+
+$servername = "ap-cdbr-azure-east-c.cloudapp.net";
+$username = "bf3d941a653cf6";
+$password = "68c64445";
+$dbname = "veesoft";
+
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,31 +56,38 @@
                             <p class="message">Already registered? <a href="#">Sign In</a></p>
                         </form>
                         <form class="login-form">
-                            <input type="text" placeholder="username"/>
-                            <input type="password" placeholder="password"/>
+                            <input type="text" placeholder="username" name="username" id="username"/>
+                            <input type="password" placeholder="password" name="password" id="password"/>
                             <button>login</button>
-                            <p class="message">Not registered? <a href="#">Create an account</a></p>
+                            <p class="message">Not registered? <a href="<?{$_SERVER['PHP_SELF'];}?>">Create an account</a></p>
                         </form>
                         <?php
 
-                                $username = $_POST["username"];
-                                $password = $_POST["password"];
+                                $myusername = $_POST["username"];
+                                $mypassword = $_POST["password"];
 
-                                if ($username=="user@gmail.com" && $password=="8865")
-                                {
-                                    session_start();
+                                $myusername = stripslashes($myusername);
+                                $mypassword = stripslashes($password);
+//                                $myusername = mysql_real_escape_string($myusername);
+//                                $mypassword = mysql_real_escape_string($mypassword);
+
+                                $sql="SELECT * FROM $users WHERE username='$myusername' and password='$mypassword'";
+                                $result = mysqli_query($db, $sql);
+
+                                $count=mysql_num_rows($result);
+                                if($count==1){
+
+                                // Register $myusername, $mypassword and redirect to file "login_success.php"
                                     $_SESSION['thisUser'] = $username;
                                     $_SESSION['accessLevel'] = "Standard";
 
-                                    }
-
-                                header('Location: index.php');
+                                    header("location: index.php");
+                                }
+                                else {
+                                echo "Wrong Username or Password";
+                                }
                         ?>
 
-
-
-
-                        ?>
                     </div>
                 </div>
         </article>
