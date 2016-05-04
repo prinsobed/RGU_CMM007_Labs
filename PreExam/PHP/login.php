@@ -48,13 +48,13 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
         <article>
                 <div class="login-page">
                     <div class="form">
-                        <form class="register-form" action = '<?{$_SERVER['PHP_SELF'];}?>' method = "POST">
-                            <input type="text" placeholder="name"/>
-                            <input type="password" placeholder="password"/>
-                            <input type="text" placeholder="email address"/>
-                            <button>create</button>
-                            <p class="message">Already registered? <a href="#">Sign In</a></p>
-                        </form>
+<!--                        <form class="register-form" action = '--><?//{$_SERVER['PHP_SELF'];}?><!--' method = "POST">-->
+<!--                            <input type="text" placeholder="name"/>-->
+<!--                            <input type="password" placeholder="password"/>-->
+<!--                            <input type="text" placeholder="email address"/>-->
+<!--                            <button>create</button>-->
+<!--                            <p class="message">Already registered? <a href="#">Sign In</a></p>-->
+<!--                        </form>-->
                         <form class="login-form" action = '<?{$_SERVER['PHP_SELF'];}?>' method = "POST">
                             <input type="text" placeholder="username" name="username" id="username"/>
                             <input type="password" placeholder="password" name="password" id="password"/>
@@ -68,8 +68,8 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 
                                 $myusername = stripslashes($myusername);
                                 $mypassword = stripslashes($password);
-//                                $myusername = mysql_real_escape_string($myusername);
-//                                $mypassword = mysql_real_escape_string($mypassword);
+//                                $myusername = mysqli_real_escape_string($myusername);
+//                                $mypassword = mysqli_real_escape_string($myusername);
 
                                 $sql="SELECT * FROM $users WHERE username='$myusername' and password='$mypassword'";
                                 $result = mysqli_query($db, $sql);
