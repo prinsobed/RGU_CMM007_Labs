@@ -59,7 +59,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 
     <section class= "grid-85" id="cont2">
         <article>
-            <div id="bugTable">
+            <div id="bugAdd">
                 <?php
                 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
                     ?>

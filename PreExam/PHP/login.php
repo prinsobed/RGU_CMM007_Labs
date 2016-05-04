@@ -6,7 +6,7 @@
  * Time: 10:14
  */
 
-//include("dbConnect.php"); // Establish Connection with DB
+//include('dbConnect.php"); // Establish Connection with DB
 
 $servername = "ap-cdbr-azure-east-c.cloudapp.net";
 $username = "bf3d941a653cf6";
@@ -17,16 +17,16 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
+    <meta charset='UTF-8'>
     <title>Bug Tracker | Login</title>
-    <link rel="stylesheet" href="assets/css/styles.css"  type='text/css'>
-    <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive-tablet.css" type='text/css'>
-    <link rel="stylesheet" href="assets/css/unsemantic-grid-desktop.css" type='text/css'>
-    <link rel="stylesheet" href="assets/css/unsemantic-grid-mobile.css" type='text/css'>
-    <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive.css" type='text/css'>
-    <link rel="stylesheet" href="assets/css/login.css"  type='text/css'>
+    <link rel='stylesheet' href='assets/css/styles.css'  type='text/css'>
+    <link rel='stylesheet' href='assets/css/unsemantic-grid-responsive-tablet.css' type='text/css'>
+    <link rel='stylesheet' href='assets/css/unsemantic-grid-desktop.css' type='text/css'>
+    <link rel='stylesheet' href='assets/css/unsemantic-grid-mobile.css' type='text/css'>
+    <link rel='stylesheet' href='assets/css/unsemantic-grid-responsive.css' type='text/css'>
+    <link rel='stylesheet' href='assets/css/login.css'  type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
