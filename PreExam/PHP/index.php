@@ -1,3 +1,17 @@
+<?php
+session_start();
+if(!$_SESSION['thisUser'] = $username){
+    header("location: login.php");
+}
+?>
+
+<html>
+<body>
+Login Successful
+</body>
+</html>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +42,7 @@
     <section class= "grid-15" id="cont1">
         <nav>
             <ul>
+                <li><p> Welcome <?php $username ?> </p> </li>
                 <li><a href="showbugs.php">All Bug Items</a> </li>
                 <li><a href="bugs.php?category=Android">Android Bugs</a></li>
                 <li><a href="bugs.php?category=iOS">iOS Bugs</a> </li>
@@ -66,3 +81,7 @@
 </body>
 </html>
 
+<?php
+session_start();
+session_destroy();
+?>
