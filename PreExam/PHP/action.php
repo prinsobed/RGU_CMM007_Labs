@@ -26,9 +26,6 @@ header('Location: index.php');
 
 <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 
-
-
-
 <!--Display Username to page-->
 <?php
 /**
