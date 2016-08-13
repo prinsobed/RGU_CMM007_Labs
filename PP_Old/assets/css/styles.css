@@ -1,0 +1,153 @@
+/*START OF CSS*/
+/*--------------------------------*/
+body {
+    font-family: 'Roboto', sans-serif; /*From Google fonts*/
+}
+
+/*W3--------------------------------*/
+div.container {
+    width: 90%;
+    border: 2px solid black;
+}
+
+/*header*/
+#header_banner{
+    padding: 2px;
+    margin: 2px;
+    background-color: black;
+    max-height: 20%;
+    alignment: left;
+}
+
+#header_pic{
+    width: auto;
+    height: auto;
+}
+
+/*header.*/
+#status_text{
+    padding: 1px;
+    color: black;
+    background-color: white;
+    text-align: left;
+    margin: 1px;
+}
+
+/*Other--------------------------------*/
+
+#sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidebar a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+
+/*Old--------------------------------*/
+/*Logo and Header CSS*/
+
+#logo {
+    width: 230px;
+    height: 200px;
+    float: left;
+    padding-right: 38px;
+}
+
+
+h1{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+h2{
+    font-weight: normal;
+    font-size: larger;
+}
+
+/*--------------------------------*/
+/*--------------------------------*/
+
+#nav1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#i1,#i2,#i3,#i4,#i5 {
+    float: left;
+}
+
+
+#a1,#a2,#a3,#a4,#a5  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+/* Change the link color to #111 (black) on hover */
+
+/*--------------------------------*/
+/*--------------------------------*/
+
+/*CSS for Main Section*/
+main {
+    max-width: 860px;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    /*background-color: gold;*/
+}
+
+/*Line*/
+hr { width:100%; height:1px; background: #fff }
+
+/*--------------------------------*/
+/*--------------------------------*/
+
+/*CSS for Main Article on Index*/
+#mainArticle{
+    text-align:justify;
+    text-justify:none;
+
+}
+/*---------------------------------*/
+
+/*Footer CSS*/
+footer{
+    max-width: 860px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    /*background-color: lawngreen;*/
+}
+/*--------------------------------*/
+
+/*END OF CSS*/
+

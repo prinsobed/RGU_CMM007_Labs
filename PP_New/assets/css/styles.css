@@ -1,0 +1,152 @@
+/*START OF CSS*/
+/*--------------------------------*/
+
+
+a:hover { 
+text-decoration: none;
+}
+
+.caption{
+	text-align:center;
+}
+
+/*Forms*/
+.form-style-1 {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Roboto", sans-serif; /*From Google fonts*/
+
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+.form-style-1 input[type=password],
+textarea, select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 input[type=password]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px black;
+    -webkit-box-shadow: 0 0 8px black;
+    box-shadow: 0 0 8px black;
+    border: 1px solid black;
+}
+.form-style-1 .field-text{
+    width: 100%;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: black;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: black;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+
+.form-style-1 input[type=reset], .form-style-1 input[type=button]{
+    background: grey;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-style-1 input[type=reset]:hover, .form-style-1 input[type=button]:hover{
+    background: grey;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.form-style-1 .required{
+    color:red;
+}
+
+
+/*!*Editable Table*!*/
+ /*table.zebra-style {*/
+     /*font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;*/
+     /*text-align:left;*/
+     /*border:1px solid #ccc;*/
+     /*margin-bottom:25px;*/
+     /*width:90%*/
+ /*}*/
+/*table.zebra-style th {*/
+    /*color: #444;*/
+    /*font-size: 13px;*/
+    /*font-weight: normal;*/
+    /*padding: 10px 8px;*/
+/*}*/
+/*table.zebra-style td {*/
+    /*color: #777;*/
+    /*padding: 8px;*/
+    /*font-size:13px;*/
+/*}*/
+/*table.zebra-style tr.odd {*/
+    /*background:#f2f2f2;*/
+/*}*/
+/*body {*/
+    /*background:#fafafa;*/
+/*}*/
+/*.container {*/
+    /*width: 800px;*/
+    /*border: 1px solid #C4CDE0;*/
+    /*border-radius: 2px;*/
+    /*margin: 0 auto;*/
+    /*height: 1300px;*/
+    /*background:#fff;*/
+    /*padding-left:10px;*/
+/*}*/
+/*#status { padding:10px; background:#88C4FF; color:#000; font-weight:bold; font-size:12px; margin-bottom:10px; display:none; width:90%; }*/
+
+
+/*END OF CSS*/
+

@@ -2,35 +2,146 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f05e2173-88ae-4241-bdae-646f8360139e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/adminer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/add_field.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/add_well.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/add_well_prod.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/admin_index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/adminer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/dbConnect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/edit_data.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/f_query_forecast_check.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/f_report_data.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/f_report_graph.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/h_query_history_check.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/h_report_data.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/h_report_graph.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/h_view_wells_history.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/load_prod_data.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/logout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/p_query_performance_check.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/p_report_data.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/p_report_graph.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/view_data.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/view_uploaded_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/add-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/add-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/avatar-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/button-add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/button-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/cancel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/check-square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/database-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/database-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/ddocument.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/doc-csv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/doc-html.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/doc-jpg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/doc-json-file.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/doc-pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/doc-txt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/doc-xls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/download (2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/edit-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/folders.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/glasses.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/header_banner.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/magnifying-glass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/main-forecast-med.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/main-forecast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/main-history-med.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/main-history.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/main-performance-med.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/main-performance.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/main_edited.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/main_report.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/main_saved.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/menu-button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/monitor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/multi-tab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/new-file.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/next-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/padlock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/settings-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/settings-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/settings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/side-menu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/statistics.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/stats.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/upload-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/wf.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/wh.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/images/wp.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/production/uploads/test.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/assets/images/header_banner.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/Others/Inline/ajax.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/Others/Inline/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/Others/Inline/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/Others/Inline/user_details.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/admin/admin_add_user.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/admin/admin_edit_user.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/admin/admin_home.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/admin/admin_view_users.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/admin/view_users.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/css/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/css/dropzone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/css/simplemodal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/css/w3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/js/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/js/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/js/jquery.noty.packaged.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/js/mootools-core-1.3.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/js/mootools-more-1.3.1.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/assets/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/includes/checklogin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/includes/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/includes/login_success.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/includes/logout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/field/add_field.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/field/edit_fields.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/field/view_fields.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/forecast/forecast_check_graph.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/forecast/forecast_check_query.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/forecast/forecast_check_report.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/history/history_check_graph.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/history/history_check_query.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/history/history_check_report.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/home.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/performance/performance_check_graph.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/performance/performance_check_query.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/performance/performance_check_report.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/production/add_production.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/production/edit_production.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/production/edit_production_import.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/production/import_production.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/production/import_production_dd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/production/view_production.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/production/view_production_import.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/well/add_well.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/well/edit_wells.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/well/view_wells.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/.idea/ProdPredict.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/assets/css/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/assets/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/assets/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/assets/css/unsemantic-grid-desktop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/assets/css/unsemantic-grid-mobile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/assets/css/unsemantic-grid-responsive-tablet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/assets/css/unsemantic-grid-responsive.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="RGU_CMM007_Labs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,11 +163,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43542436">
+            <state vertical-scroll-proportion="-9.5">
               <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PP_New/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.09778598">
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -89,6 +210,7 @@
         <option value="$PROJECT_DIR$/PreExam/PHP/index.php" />
         <option value="$PROJECT_DIR$/PreExam/PHP/bugs.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/PP_New/index.php" />
       </list>
     </option>
   </component>
@@ -161,7 +283,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PP_Old" />
+              <option name="myItemId" value="PP_New" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RGU_CMM007_Labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabsForTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PP_New" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Others" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inline" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,12 +378,6 @@
       <created>1457947114912</created>
       <option name="number" value="Default" />
       <updated>1457947114912</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Wrup Up for today..!">
-      <created>1457979831222</created>
-      <option name="number" value="00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1457979831222</updated>
     </task>
     <task id="LOCAL-00007" summary="Lets go Home..!">
       <created>1457980118262</created>
@@ -529,14 +667,20 @@
       <option name="project" value="LOCAL" />
       <updated>1462303831388</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="All Testors">
+      <created>1471043566020</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1471043566023</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="754" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19389313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19694656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -593,20 +737,14 @@
     <MESSAGE value="Index" />
     <MESSAGE value="addbugs if-else block" />
     <MESSAGE value="all" />
-    <option name="LAST_COMMIT_MESSAGE" value="all" />
+    <MESSAGE value="All Testors" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Testors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lab7_Databases/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -752,7 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,9 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="95" column="48" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="48" />
-          <folding>
-            <element signature="e#6#84#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.923077">
           <caret line="52" column="21" selection-start-line="51" selection-start-column="62" selection-end-line="52" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,7 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,7 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,7 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,7 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.076923">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,7 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,7 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,7 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -920,7 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,7 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,7 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,7 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,7 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -960,9 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1468659303475" expanded="true" signature="1118:1196" placeholder="SELECT * FRO... users" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -970,14 +1079,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43542436">
+        <state vertical-scroll-proportion="-9.5">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP_New/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.09778598">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding />
         </state>
       </provider>
