@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f05e2173-88ae-4241-bdae-646f8360139e" name="Default" comment="All Testors">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/Others/Excel/example.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/admin/admin_view_users_pag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/admin/ajax.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/admin/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/Others/Excel/db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/admin/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/admin/example.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/Others/Excel/excel_reader2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/Others/Excel/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/admin/jquery.tabledit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/admin/jquery.tabledit.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PP_New/admin/admin_edit_user.php" afterPath="$PROJECT_DIR$/PP_New/admin/admin_edit_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PP_New/admin/admin_view_users.php" afterPath="$PROJECT_DIR$/PP_New/admin/admin_view_users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PP_New/admin/view_users.php" afterPath="$PROJECT_DIR$/PP_New/admin/view_users.php" />
+    <list default="true" id="f05e2173-88ae-4241-bdae-646f8360139e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/production/uploads/example.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/assets/images/wf.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/assets/images/wh.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_Old/assets/images/wp.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/production/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP_New/main/production/excel_reader2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PP_New/main/production/edit_production_import.php" afterPath="$PROJECT_DIR$/PP_New/main/production/edit_production_import.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PP_Old/home.php" afterPath="$PROJECT_DIR$/PP_Old/home.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RGU_CMM007_Labs.iws" />
@@ -39,84 +32,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin_view_users.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PP_New/admin/admin_view_users.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PP_New/Others/Excel/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.192307">
-              <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="100" />
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding>
+                <marker date="1396115882747" expanded="true" signature="1210:1302" placeholder="insert into ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PP_Old/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.11638418">
+              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view_users.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PP_New/admin/view_users.php">
+      <file leaf-file-name="edit_production_import.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PP_New/main/production/edit_production_import.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3461539">
-              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="125" selection-end-column="1" />
+            <state vertical-scroll-proportion="-17.692308">
+              <caret line="162" column="56" selection-start-line="162" selection-start-column="56" selection-end-line="162" selection-end-column="56" />
               <folding>
-                <marker date="1471090621134" expanded="true" signature="4426:4457" placeholder="SELECT * FRO..users..." />
-                <marker date="1471090621134" expanded="true" signature="7511:7531" placeholder="..." />
+                <marker date="1471096587775" expanded="true" signature="6878:6970" placeholder="insert into ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_edit_user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PP_New/admin/admin_edit_user.php">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PP_New/main/production/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.115385">
-              <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-              <folding>
-                <element signature="e#3747#3821#0#PHP" expanded="true" />
-                <marker date="1471092690193" expanded="true" signature="4600:4633" placeholder="..." />
-                <marker date="1471092690193" expanded="true" signature="4607:4633" placeholder="..." />
-                <marker date="1471092690193" expanded="true" signature="4615:4633" placeholder="..." />
-                <marker date="1471092690193" expanded="true" signature="4784:4806" placeholder="..." />
-                <marker date="1471092690193" expanded="true" signature="4915:4959" placeholder="..." />
-                <marker date="1471092690193" expanded="true" signature="5019:5043" placeholder="..." />
-                <marker date="1471092690193" expanded="true" signature="5025:5043" placeholder="..." />
-                <marker date="1471092690193" expanded="true" signature="5222:5253" placeholder="..." />
-                <marker date="1471092690193" expanded="true" signature="5324:5354" placeholder="..." />
-                <marker date="1471092690193" expanded="true" signature="5702:5825" placeholder="..." />
-                <marker date="1471092690193" expanded="true" signature="5728:5811" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PP_New/Others/Excel/db.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.807693">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.tabledit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PP_New/Others/TablEdit/jquery.tabledit.js">
+      <file leaf-file-name="excel_reader2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PP_New/Others/Excel/excel_reader2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="431.53845">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1429531768000" expanded="true" signature="9321:9352" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.tabledit.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PP_New/Others/TablEdit/jquery.tabledit.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1429531768000" expanded="true" signature="4946:4977" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,6 +120,9 @@
         <option value="$PROJECT_DIR$/PP_New/admin/ajax.php" />
         <option value="$PROJECT_DIR$/PP_New/admin/view_users.php" />
         <option value="$PROJECT_DIR$/PP_New/admin/admin_edit_user.php" />
+        <option value="$PROJECT_DIR$/PP_New/main/production/edit_production_import.php" />
+        <option value="$PROJECT_DIR$/PP_New/main/production/config.php" />
+        <option value="$PROJECT_DIR$/PP_Old/home.php" />
       </list>
     </option>
   </component>
@@ -227,7 +195,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PP_New" />
+              <option name="myItemId" value="PP_Old" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,11 +209,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PP_New" />
+              <option name="myItemId" value="PP_Old" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Others" />
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RGU_CMM007_Labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Testor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PP_Old" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,18 +251,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Semester 1\Semester 2\Intranet Systems\Labs_Final\Testor\PP_Old\assets\images" />
+      <recent name="H:\Semester 1\Semester 2\Intranet Systems\Labs_Final\Testor\PP_New\main\production" />
       <recent name="H:\Semester 1\Semester 2\Intranet Systems\Labs_Final\Testor\PP_New\admin" />
       <recent name="C:\WebDev\Github\RGU_Projects\LabsForTest\PP_Old" />
       <recent name="C:\WebDev\Github\03.05.2016B\RGU_CMM007_Labs\PreExam\PHP" />
-      <recent name="H:\1314863\Semester 2\CMM007 -Intranet Systems Development\RGU_CMM007_Labs\Lab7b_MarvelWeb\assets\css" />
-      <recent name="H:\1314863\Semester 2\CMM007 -Intranet Systems Development\RGU_CMM007_Labs\Lab7b_MarvelWeb" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Semester 1\Semester 2\Intranet Systems\Labs_Final\Testor\PP_New\main\production\uploads" />
+      <recent name="H:\Semester 1\Semester 2\Intranet Systems\Labs_Final\Testor\PP_New\main\production" />
       <recent name="H:\Semester 1\Semester 2\Intranet Systems\Labs_Final\Testor\PP_New\Others" />
       <recent name="C:\WebDev\Github\RGU_Projects\LabsForTest\PP_Old" />
       <recent name="C:\WebDev\Github\RGU_Projects\LabsForTest\PP_New" />
-      <recent name="H:\1314863\Semester 2\CMM007 -Intranet Systems Development\RGU_CMM007_Labs\Lab7b_MarvelWeb\assets\images" />
-      <recent name="H:\1314863\Semester 2\CMM007 -Intranet Systems Development\RGU_CMM007_Labs" />
     </key>
   </component>
   <component name="RunManager">
@@ -313,12 +303,6 @@
       <created>1457947114912</created>
       <option name="number" value="Default" />
       <updated>1457947114912</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Comit Marvel">
-      <created>1458035133977</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1458035133977</updated>
     </task>
     <task id="LOCAL-00010" summary="Index edit">
       <created>1458035289389</created>
@@ -608,14 +592,20 @@
       <option name="project" value="LOCAL" />
       <updated>1471086019026</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="All Testors">
+      <created>1471095244719</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1471095244719</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13965885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17590618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
@@ -680,34 +670,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lab8_MorePhp/helloPrinter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1_BBC_Html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab8_MorePhp/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65867156">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab8_MorePhp/helloSelector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6900369">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PreExam/PHP/action.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -768,6 +730,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -804,6 +767,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -865,13 +829,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PP_Old/h_view_wells_history.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP_Old/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -985,14 +942,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PP_New/main/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6035503">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PP_New/Others/TablEdit/CHANGELOG.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1002,17 +951,6 @@
       </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP_New/Others/TablEdit/jquery.tabledit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1429531768000" expanded="true" signature="9321:9352" placeholder="..." />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PP_New/Others/TablEdit/example.php">
@@ -1035,53 +973,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PP_New/admin/view_users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3461539">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="125" selection-end-column="1" />
-          <folding>
-            <marker date="1471090621134" expanded="true" signature="4426:4457" placeholder="SELECT * FRO..users..." />
-            <marker date="1471090621134" expanded="true" signature="7511:7531" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP_New/admin/admin_view_users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.192307">
-          <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PP_New/Others/TablEdit/jquery.tabledit.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1429531768000" expanded="true" signature="4946:4977" placeholder="..." />
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1429531768000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PP_New/admin/admin_edit_user.php">
+    <entry file="file://$PROJECT_DIR$/PP_New/Others/TablEdit/jquery.tabledit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.115385">
-          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3747#3821#0#PHP" expanded="true" />
-            <marker date="1471092690193" expanded="true" signature="4600:4633" placeholder="..." />
-            <marker date="1471092690193" expanded="true" signature="4607:4633" placeholder="..." />
-            <marker date="1471092690193" expanded="true" signature="4615:4633" placeholder="..." />
-            <marker date="1471092690193" expanded="true" signature="4784:4806" placeholder="..." />
-            <marker date="1471092690193" expanded="true" signature="4915:4959" placeholder="..." />
-            <marker date="1471092690193" expanded="true" signature="5019:5043" placeholder="..." />
-            <marker date="1471092690193" expanded="true" signature="5025:5043" placeholder="..." />
-            <marker date="1471092690193" expanded="true" signature="5222:5253" placeholder="..." />
-            <marker date="1471092690193" expanded="true" signature="5324:5354" placeholder="..." />
-            <marker date="1471092690193" expanded="true" signature="5702:5825" placeholder="..." />
-            <marker date="1471092690193" expanded="true" signature="5728:5811" placeholder="..." />
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1429531768000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1090,6 +999,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP_New/admin/admin_edit_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38531074">
+          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+          <folding>
+            <element signature="e#3747#3821#0#PHP" expanded="true" />
+            <marker date="1471092690193" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471092690193" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471092690193" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471092690193" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471092690193" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471092690193" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471092690193" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471092690193" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471092690193" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471092690193" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471092690193" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP_New/admin/view_users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03954802">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="125" selection-end-column="1" />
+          <folding>
+            <marker date="1471090621134" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
+            <marker date="1471090621134" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP_New/admin/admin_view_users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29943502">
+          <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP_New/Others/Excel/excel_reader2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="431.53845">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP_New/main/production/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP_New/main/production/edit_production_import.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.692308">
+          <caret line="162" column="56" selection-start-line="162" selection-start-column="56" selection-end-line="162" selection-end-column="56" />
+          <folding>
+            <marker date="1471096587775" expanded="true" signature="6878:6970" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP_New/Others/Excel/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <marker date="1396115882747" expanded="true" signature="1210:1302" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP_New/main/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84632766">
+          <caret line="182" column="34" selection-start-line="131" selection-start-column="28" selection-end-line="182" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP_Old/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11638418">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -68,6 +68,62 @@ include('session.php');
             <div id="mainfeature">
                 <a href="forecast/f_query_forecast_check.php">Forecast</a>
             </div>
+
+
+            <div class="col-sm-4">
+                <div class="row2">
+                    <div class="col-sm-12">
+                        <a href="" class="thumbnail">
+                            <img src="../PP_Old/assets/images/wh.JPG" alt="History">
+                            <div class="caption">
+                                History
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row2">
+                    <div class="col-sm-12"></div>
+                </div>
+            </div>
+
+            <!-- Performance -->
+            <div class="col-sm-4">
+                <div class="row2">
+                    <div class="col-sm-12">
+                        <a href="" class="thumbnail">
+                            <img src="../PP_Old/assets/images/wp.JPG" alt="Performance">
+                            <div class="caption">
+                                Performance
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row2">
+                    <div class="col-sm-12"></div>
+                </div>
+            </div>
+
+            <!-- Forecast -->
+            <div class="col-sm-4">
+                <div class="row2">
+                    <div class="col-sm-12">
+                        <a href="" class="thumbnail">
+                            <img src="../PP_Old/assets/images/wf.JPG" alt="Forecast">
+                            <div class="caption">
+                                Forecast
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row2">
+                    <div class="col-sm-12"></div>
+                </div>
+            </div>
+
+
         </div>
     </article>
     </main>
