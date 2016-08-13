@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ProdPredict | Admin Home</title>
+    <title>ProdPredict | Home</title>
     <link rel="stylesheet" href="assets/css/main.css"  type='text/css'>
     <link rel="stylesheet" href="assets/css/forms.css"  type='text/css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"  type='text/css'>
@@ -17,7 +17,7 @@
             <h1 class="header">ProdPredict</h1>
         </div>
         <div id="status">
-            <p class="status"><a href="admin_index.php">Admin Home</a></p>
+            <p class="status"><a href="admin_index.php">Home</a></p>
         </div>
     </header>
 
@@ -42,15 +42,58 @@
 
     <article>
         <div id="user_management">
-        <h3>User Management</h3><br>
-            <div id="mainfeature">
-                <a href="">Add Users</a>
+        <h3>Run Analysis</h3><br>
+            <div class="col-sm-4">
+                <div class="row2">
+                    <div class="col-sm-12">
+                        <a href="" class="thumbnail">
+                            <img src="../PP_Old/assets/images/wh.JPG" alt="History">
+                            <div class="caption">
+                                History
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row2">
+                    <div class="col-sm-12"></div>
+                </div>
             </div>
-            <div id="mainfeature">
-                <a href="">View Users</a>
+
+            <!-- Performance -->
+            <div class="col-sm-4">
+                <div class="row2">
+                    <div class="col-sm-12">
+                        <a href="" class="thumbnail">
+                            <img src="../PP_Old/assets/images/wp.JPG" alt="Performance">
+                            <div class="caption">
+                                Performance
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row2">
+                    <div class="col-sm-12"></div>
+                </div>
             </div>
-            <div id="mainfeature">
-                <a href="">Edit Users</a>
+
+            <!-- Forecast -->
+            <div class="col-sm-4">
+                <div class="row2">
+                    <div class="col-sm-12">
+                        <a href="" class="thumbnail">
+                            <img src="../PP_Old/assets/images/wf.JPG" alt="Forecast">
+                            <div class="caption">
+                                Forecast
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row2">
+                    <div class="col-sm-12"></div>
+                </div>
             </div>
         </div>
     </article>
