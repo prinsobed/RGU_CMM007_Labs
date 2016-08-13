@@ -42,7 +42,13 @@
 
     <article>
         <div id="user_management">
+
         <h3>Run Analysis</h3><br>
+
+                        <table>
+                            <tr>
+                                <td>
+
             <div class="col-sm-4">
                 <div class="row2">
                     <div class="col-sm-12">
@@ -59,7 +65,8 @@
                     <div class="col-sm-12"></div>
                 </div>
             </div>
-
+                    </td>
+                                <td>
             <!-- Performance -->
             <div class="col-sm-4">
                 <div class="row2">
@@ -77,7 +84,8 @@
                     <div class="col-sm-12"></div>
                 </div>
             </div>
-
+                                </td>
+                                <td>
             <!-- Forecast -->
             <div class="col-sm-4">
                 <div class="row2">
@@ -95,6 +103,9 @@
                     <div class="col-sm-12"></div>
                 </div>
             </div>
+                                </td>
+                </tr>
+            </table>
         </div>
     </article>
     </main>
